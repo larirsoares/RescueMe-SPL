@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	007F635517287C3300DC8538 /* RescueMe-Lite */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Lite";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	007F635617287C3300DC8538 /* RescueMe-Pro */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Pro";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	007F635717287C3300DC8538 /* RescueMe-Standard */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Standard";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	007F635817287C3300DC8538 /* RescueMe-Social */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Social";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	007F635917287C3300DC8538 /* RescueMe-Ultimate */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Ultimate";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	007F637917287C3900DC8538 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	007F637A17287C3900DC8538 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	00FD27BC167770F300F82BC4 /* RescueMe-Standard */ = {
+		activeExec = 0;
+		executables = (
+			007F635717287C3300DC8538 /* RescueMe-Standard */,
+		);
+	};
+	00FD27EB167770F800F82BC4 /* RescueMe-Social */ = {
+		activeExec = 0;
+		executables = (
+			007F635817287C3300DC8538 /* RescueMe-Social */,
+		);
+	};
+	00FD281A167770FD00F82BC4 /* RescueMe-Pro */ = {
+		activeExec = 0;
+		executables = (
+			007F635617287C3300DC8538 /* RescueMe-Pro */,
+		);
+	};
+	00FD28491677710300F82BC4 /* RescueMe-Ultimate */ = {
+		activeExec = 0;
+		executables = (
+			007F635917287C3300DC8538 /* RescueMe-Ultimate */,
+		);
+	};
+	1D6058900D05DD3D006BFB54 /* RescueMe-Lite */ = {
+		activeExec = 0;
+		executables = (
+			007F635517287C3300DC8538 /* RescueMe-Lite */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 007F635517287C3300DC8538 /* RescueMe-Lite */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RescueMe-Lite */;
+		codeSenseManager = 007F637A17287C3900DC8538 /* Code sense */;
+		executables = (
+			007F635517287C3300DC8538 /* RescueMe-Lite */,
+			007F635617287C3300DC8538 /* RescueMe-Pro */,
+			007F635717287C3300DC8538 /* RescueMe-Standard */,
+			007F635817287C3300DC8538 /* RescueMe-Social */,
+			007F635917287C3300DC8538 /* RescueMe-Ultimate */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 388529203;
+			PBXWorkspaceStateSaveDate = 388529203;
+		};
+		sourceControlManager = 007F637917287C3900DC8538 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

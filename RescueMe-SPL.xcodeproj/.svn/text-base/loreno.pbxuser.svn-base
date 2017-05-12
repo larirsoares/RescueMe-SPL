@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* RescueMe_SPLAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 549}}";
+			sepNavSelRange = "{612, 0}";
+			sepNavVisRange = "{0, 613}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1209}}";
+			sepNavSelRange = "{1278, 0}";
+			sepNavVisRange = "{0, 1444}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* RescueMe-Lite */ = {
+		activeExec = 0;
+		executables = (
+			404D2C581677612000EB8DA5 /* RescueMe-Lite */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* RescueMe_SPLViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 501}}";
+			sepNavSelRange = "{219, 0}";
+			sepNavVisRange = "{0, 297}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {934, 1040}}";
+			sepNavSelRange = "{1862, 0}";
+			sepNavVisRange = "{327, 892}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 404D2C581677612000EB8DA5 /* RescueMe-Lite */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RescueMe-Lite */;
+		addToTargets = (
+			404D2C8F167762F800EB8DA5 /* RescueMe-Ultimate */,
+			1D6058900D05DD3D006BFB54 /* RescueMe-Lite */,
+			404D2C85167762DE00EB8DA5 /* RescueMe-Pro */,
+			404D2C7B167762CE00EB8DA5 /* RescueMe-Social */,
+			404D2C71167762B300EB8DA5 /* RescueMe-Standard */,
+		);
+		breakpoints = (
+			404D2DA016776D9400EB8DA5 /* ContactManager.m:109 */,
+			404D2E461677763600EB8DA5 /* ContactViewController.m:115 */,
+		);
+		codeSenseManager = 404D2C681677612300EB8DA5 /* Code sense */;
+		executables = (
+			404D2C581677612000EB8DA5 /* RescueMe-Lite */,
+			404D2C73167762B300EB8DA5 /* RescueMe-Standard */,
+			404D2C7D167762CE00EB8DA5 /* RescueMe-Social */,
+			404D2C87167762DE00EB8DA5 /* RescueMe-Pro */,
+			404D2C91167762F800EB8DA5 /* RescueMe-Ultimate */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					455,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					641,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					527,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 376927263;
+			PBXWorkspaceStateSaveDate = 376927263;
+		};
+		perUserProjectItems = {
+			404D2CE6167766A300EB8DA5 /* PBXTextBookmark */ = 404D2CE6167766A300EB8DA5 /* PBXTextBookmark */;
+			404D2CE9167766A300EB8DA5 /* PBXTextBookmark */ = 404D2CE9167766A300EB8DA5 /* PBXTextBookmark */;
+			404D2CEE167766A300EB8DA5 /* PBXTextBookmark */ = 404D2CEE167766A300EB8DA5 /* PBXTextBookmark */;
+			404D2CEF167766A300EB8DA5 /* PBXTextBookmark */ = 404D2CEF167766A300EB8DA5 /* PBXTextBookmark */;
+			404D2CF1167766A300EB8DA5 /* PBXTextBookmark */ = 404D2CF1167766A300EB8DA5 /* PBXTextBookmark */;
+			404D2D1416776A2200EB8DA5 /* PBXTextBookmark */ = 404D2D1416776A2200EB8DA5 /* PBXTextBookmark */;
+			404D2D1816776A2200EB8DA5 /* XDModelBookmark */ = 404D2D1816776A2200EB8DA5 /* XDModelBookmark */;
+			404D2D9716776D2D00EB8DA5 /* PBXTextBookmark */ = 404D2D9716776D2D00EB8DA5 /* PBXTextBookmark */;
+			404D2D9816776D2D00EB8DA5 /* PBXTextBookmark */ = 404D2D9816776D2D00EB8DA5 /* PBXTextBookmark */;
+			404D2DBC16776D9F00EB8DA5 /* PBXTextBookmark */ = 404D2DBC16776D9F00EB8DA5 /* PBXTextBookmark */;
+			404D2E2F1677751300EB8DA5 /* PBXTextBookmark */ = 404D2E2F1677751300EB8DA5 /* PBXTextBookmark */;
+			404D2E3E1677758900EB8DA5 /* PBXTextBookmark */ = 404D2E3E1677758900EB8DA5 /* PBXTextBookmark */;
+			404D2E3F1677758900EB8DA5 /* PBXTextBookmark */ = 404D2E3F1677758900EB8DA5 /* PBXTextBookmark */;
+			404D2E481677765C00EB8DA5 /* PBXTextBookmark */ = 404D2E481677765C00EB8DA5 /* PBXTextBookmark */;
+			404D2E491677765C00EB8DA5 /* PBXTextBookmark */ = 404D2E491677765C00EB8DA5 /* PBXTextBookmark */;
+			404D2E4A1677765C00EB8DA5 /* PBXTextBookmark */ = 404D2E4A1677765C00EB8DA5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 404D2C671677612300EB8DA5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	404D2C581677612000EB8DA5 /* RescueMe-Lite */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Lite";
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	404D2C671677612300EB8DA5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	404D2C681677612300EB8DA5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	404D2C71167762B300EB8DA5 /* RescueMe-Standard */ = {
+		activeExec = 0;
+		executables = (
+			404D2C73167762B300EB8DA5 /* RescueMe-Standard */,
+		);
+	};
+	404D2C73167762B300EB8DA5 /* RescueMe-Standard */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Standard";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	404D2C7B167762CE00EB8DA5 /* RescueMe-Social */ = {
+		activeExec = 0;
+		executables = (
+			404D2C7D167762CE00EB8DA5 /* RescueMe-Social */,
+		);
+	};
+	404D2C7D167762CE00EB8DA5 /* RescueMe-Social */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Social";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	404D2C85167762DE00EB8DA5 /* RescueMe-Pro */ = {
+		activeExec = 0;
+		executables = (
+			404D2C87167762DE00EB8DA5 /* RescueMe-Pro */,
+		);
+	};
+	404D2C87167762DE00EB8DA5 /* RescueMe-Pro */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Pro";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	404D2C8F167762F800EB8DA5 /* RescueMe-Ultimate */ = {
+		activeExec = 0;
+		executables = (
+			404D2C91167762F800EB8DA5 /* RescueMe-Ultimate */,
+		);
+	};
+	404D2C91167762F800EB8DA5 /* RescueMe-Ultimate */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "RescueMe-Ultimate";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	404D2CB1167763F500EB8DA5 /* ContactViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {819, 531}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 400}";
+			sepNavWindowFrame = "{{15, 0}, {750, 778}}";
+		};
+	};
+	404D2CB2167763F500EB8DA5 /* ContactViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5660, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5711, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5761, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6001}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1223, 2444}}";
+			sepNavSelRange = "{3503, 0}";
+			sepNavVisRange = "{698, 1475}";
+		};
+	};
+	404D2CBE1677649C00EB8DA5 /* AddContactViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 501}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{0, 929}";
+		};
+	};
+	404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 1014}}";
+			sepNavSelRange = "{1123, 0}";
+			sepNavVisRange = "{667, 905}";
+		};
+	};
+	404D2CCB1677650C00EB8DA5 /* ImportContactViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 501}}";
+			sepNavSelRange = "{543, 0}";
+			sepNavVisRange = "{0, 630}";
+		};
+	};
+	404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1937}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{0, 835}";
+		};
+	};
+	404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */ = {
+		uiCtxt = {
+			"Xdesign Model Editor Bookmark Key" = {
+				UIContextForDetailArea = {
+					_indexOfSelectedPane = 0;
+					_indexOfSelectedView = 0;
+				};
+				UIContextForEntityArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnns = (
+						"ET Entity",
+						"ET Abstract",
+						"ET Class",
+					);
+					chosenTableColumnns_sortDirections = (
+						YES,
+					);
+					chosenTableColumnns_sortKeys = (
+						name,
+					);
+					chosenTableColumnns_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidths = (
+						103.000000,
+						22.000000,
+						32.080078,
+					);
+				};
+				UIContextForLayoutManager = {
+					detailSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {524, 218}}",
+							"{{529, 0}, {275, 218}}",
+						);
+					};
+					diagramSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {804, 220}}",
+							"{{0, 225}, {804, 339}}",
+						);
+					};
+					tableSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {171, 218}}",
+							"{{176, 0}, {348, 218}}",
+						);
+					};
+				};
+				UIContextForPropertyArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnnFRTs = (
+						"FT Fetch Request",
+						"FT Predicate",
+					);
+					chosenTableColumnnFRTs_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnFRTs_sortKeys = (
+						name,
+					);
+					chosenTableColumnnFRTs_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsAT = (
+						"AT Attribute",
+						"AT Type",
+					);
+					chosenTableColumnnsAT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsAT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsAT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsFPT = (
+						"FP FetchedProperty",
+						"FP Destination",
+						"FP Predicate",
+					);
+					chosenTableColumnnsFPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsFPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsFPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsPT = (
+						"PT Property",
+						"PT Kind",
+						"PT SharedKeyOne",
+					);
+					chosenTableColumnnsPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsRT = (
+						"RT Relationship",
+						"RT Destination",
+					);
+					chosenTableColumnnsRT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsRT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsRT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidthsAT = (
+						128.000000,
+						64.000000,
+					);
+					chosenTableWidthsFPT = (
+						128.000000,
+						64.000000,
+						144.764160,
+					);
+					chosenTableWidthsFRT = (
+						128.000000,
+						249.764160,
+					);
+					chosenTableWidthsPT = (
+						128.000000,
+						108.110840,
+						96.570801,
+					);
+					chosenTableWidthsRT = (
+						128.000000,
+						64.000000,
+					);
+				};
+				"xdesign model browser state key - shown/hidden" = 1;
+				"xdesign model diagram view visible rect key" = "{{-46, 0}, {789, 324}}";
+			};
+		};
+	};
+	404D2CDF1677667900EB8DA5 /* Contact.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 501}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 469}";
+		};
+	};
+	404D2CE01677667900EB8DA5 /* Contact.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 501}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 278}";
+		};
+	};
+	404D2CE6167766A300EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RescueMe_SPLAppDelegate.h */;
+		name = "RescueMe_SPLAppDelegate.h: 21";
+		rLen = 0;
+		rLoc = 612;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 0;
+	};
+	404D2CE9167766A300EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RescueMe_SPLViewController.h */;
+		name = "RescueMe_SPLViewController.h: 11";
+		rLen = 0;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	404D2CEE167766A300EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CCB1677650C00EB8DA5 /* ImportContactViewController.h */;
+		name = "ImportContactViewController.h: 21";
+		rLen = 0;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 0;
+	};
+	404D2CEF167766A300EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */;
+		name = "ImportContactViewController.m: 15";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 0;
+	};
+	404D2CF1167766A300EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CDF1677667900EB8DA5 /* Contact.h */;
+		name = "Contact.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 0;
+	};
+	404D2CF4167766C200EB8DA5 /* ContactManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {819, 531}}";
+			sepNavSelRange = "{164, 0}";
+			sepNavVisRange = "{0, 865}";
+		};
+	};
+	404D2CF5167766C200EB8DA5 /* ContactManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1417}}";
+			sepNavSelRange = "{1278, 0}";
+			sepNavVisRange = "{1093, 496}";
+		};
+	};
+	404D2D1416776A2200EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CE01677667900EB8DA5 /* Contact.m */;
+		name = "Contact.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	404D2D1816776A2200EB8DA5 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	404D2D9716776D2D00EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CBE1677649C00EB8DA5 /* AddContactViewController.h */;
+		name = "AddContactViewController.h: 13";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 929;
+		vrLoc = 0;
+	};
+	404D2D9816776D2D00EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */;
+		name = "RescueMe_SPLAppDelegate.m: 35";
+		rLen = 0;
+		rLoc = 1278;
+		rType = 0;
+		vrLen = 1444;
+		vrLoc = 0;
+	};
+	404D2DA016776D9400EB8DA5 /* ContactManager.m:109 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 404D2CF5167766C200EB8DA5 /* ContactManager.m */;
+		functionName = "-managedObjectModel";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 109;
+		location = "RescueMe-SPL";
+		modificationTime = 376927799.333315;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	404D2DBC16776D9F00EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */;
+		name = "RescueMe_SPLViewController.m: 80";
+		rLen = 0;
+		rLoc = 1862;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 327;
+	};
+	404D2E2F1677751300EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */;
+		name = "AddContactViewController.m: 56";
+		rLen = 0;
+		rLoc = 1123;
+		rType = 0;
+		vrLen = 905;
+		vrLoc = 667;
+	};
+	404D2E3E1677758900EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CF4167766C200EB8DA5 /* ContactManager.h */;
+		name = "ContactManager.h: 11";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 865;
+		vrLoc = 0;
+	};
+	404D2E3F1677758900EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CF5167766C200EB8DA5 /* ContactManager.m */;
+		name = "ContactManager.m: 42";
+		rLen = 0;
+		rLoc = 1278;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 754;
+	};
+	404D2E461677763600EB8DA5 /* ContactViewController.m:115 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 115;
+		location = "RescueMe-SPL";
+		modificationTime = 376927799.333462;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	404D2E481677765C00EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CB1167763F500EB8DA5 /* ContactViewController.h */;
+		name = "ContactViewController.h: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	404D2E491677765C00EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */;
+		name = "ContactViewController.m: 126";
+		rLen = 38;
+		rLoc = 4014;
+		rType = 0;
+		vrLen = 1430;
+		vrLoc = 3137;
+	};
+	404D2E4A1677765C00EB8DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */;
+		name = "ContactViewController.m: 113";
+		rLen = 0;
+		rLoc = 3503;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 698;
+	};
+}

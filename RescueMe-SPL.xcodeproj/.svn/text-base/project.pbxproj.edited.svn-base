@@ -1,0 +1,1799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0067093516CD4DA900FCB5E2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0067093416CD4DA900FCB5E2 /* MessageUI.framework */; };
+		0067093716CD4DB000FCB5E2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0067093416CD4DA900FCB5E2 /* MessageUI.framework */; };
+		0067093816CD4DB700FCB5E2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0067093416CD4DA900FCB5E2 /* MessageUI.framework */; };
+		0067093916CD4DBD00FCB5E2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0067093416CD4DA900FCB5E2 /* MessageUI.framework */; };
+		0067093A16CD4DC300FCB5E2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0067093416CD4DA900FCB5E2 /* MessageUI.framework */; };
+		00AD71F3171F2BCA007F5328 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71F1171F2BCA007F5328 /* SettingsViewController.m */; };
+		00AD71F4171F2BCA007F5328 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71F1171F2BCA007F5328 /* SettingsViewController.m */; };
+		00AD71F5171F2BCA007F5328 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71F1171F2BCA007F5328 /* SettingsViewController.m */; };
+		00AD71F6171F2BCA007F5328 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71F1171F2BCA007F5328 /* SettingsViewController.m */; };
+		00AD71F7171F2BCA007F5328 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71F1171F2BCA007F5328 /* SettingsViewController.m */; };
+		00AD71F8171F2BCA007F5328 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD71F2171F2BCA007F5328 /* SettingsViewController.xib */; };
+		00AD71F9171F2BCA007F5328 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD71F2171F2BCA007F5328 /* SettingsViewController.xib */; };
+		00AD71FA171F2BCA007F5328 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD71F2171F2BCA007F5328 /* SettingsViewController.xib */; };
+		00AD71FB171F2BCA007F5328 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD71F2171F2BCA007F5328 /* SettingsViewController.xib */; };
+		00AD71FC171F2BCA007F5328 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD71F2171F2BCA007F5328 /* SettingsViewController.xib */; };
+		00AD7201171F404C007F5328 /* HowToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71FF171F404C007F5328 /* HowToUseViewController.m */; };
+		00AD7202171F404C007F5328 /* HowToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71FF171F404C007F5328 /* HowToUseViewController.m */; };
+		00AD7203171F404C007F5328 /* HowToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71FF171F404C007F5328 /* HowToUseViewController.m */; };
+		00AD7204171F404C007F5328 /* HowToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD71FF171F404C007F5328 /* HowToUseViewController.m */; };
+		00AD7205171F404C007F5328 /* HowToUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD7200171F404C007F5328 /* HowToUseViewController.xib */; };
+		00AD7206171F404C007F5328 /* HowToUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD7200171F404C007F5328 /* HowToUseViewController.xib */; };
+		00AD7207171F404C007F5328 /* HowToUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD7200171F404C007F5328 /* HowToUseViewController.xib */; };
+		00AD7208171F404C007F5328 /* HowToUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD7200171F404C007F5328 /* HowToUseViewController.xib */; };
+		00FD27BE167770F300F82BC4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		00FD27BF167770F300F82BC4 /* RescueMe_SPLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RescueMe_SPLViewController.xib */; };
+		00FD27C0167770F300F82BC4 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CB3167763F500EB8DA5 /* ContactViewController.xib */; };
+		00FD27C1167770F300F82BC4 /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CC01677649C00EB8DA5 /* AddContactViewController.xib */; };
+		00FD27C2167770F300F82BC4 /* ImportContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CCD1677650C00EB8DA5 /* ImportContactViewController.xib */; };
+		00FD27C3167770F300F82BC4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3116776CFB00EB8DA5 /* background.png */; };
+		00FD27C4167770F300F82BC4 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3216776CFB00EB8DA5 /* background@2x.png */; };
+		00FD27C5167770F300F82BC4 /* background568.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3316776CFB00EB8DA5 /* background568.png */; };
+		00FD27C6167770F300F82BC4 /* botao.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3416776CFB00EB8DA5 /* botao.png */; };
+		00FD27C7167770F300F82BC4 /* botao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3516776CFB00EB8DA5 /* botao@2x.png */; };
+		00FD27C8167770F300F82BC4 /* botaoPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3616776CFB00EB8DA5 /* botaoPressed.png */; };
+		00FD27C9167770F300F82BC4 /* botaoPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3716776CFB00EB8DA5 /* botaoPressed@2x.png */; };
+		00FD27CA167770F300F82BC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3816776CFB00EB8DA5 /* Default-568h@2x.png */; };
+		00FD27CB167770F300F82BC4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3916776CFB00EB8DA5 /* Default.png */; };
+		00FD27CC167770F300F82BC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3A16776CFB00EB8DA5 /* Default@2x.png */; };
+		00FD27CD167770F300F82BC4 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3B16776CFB00EB8DA5 /* gear.png */; };
+		00FD27CE167770F300F82BC4 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3C16776CFB00EB8DA5 /* gear@2x.png */; };
+		00FD27CF167770F300F82BC4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3D16776CFB00EB8DA5 /* Icon.png */; };
+		00FD27D0167770F300F82BC4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3E16776CFB00EB8DA5 /* Icon@2x.png */; };
+		00FD27D1167770F300F82BC4 /* rescue.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3F16776CFB00EB8DA5 /* rescue.png */; };
+		00FD27D2167770F300F82BC4 /* rescue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D4016776CFB00EB8DA5 /* rescue@2x.png */; };
+		00FD27D4167770F300F82BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		00FD27D5167770F300F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */; };
+		00FD27D6167770F300F82BC4 /* RescueMe_SPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */; };
+		00FD27D7167770F300F82BC4 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */; };
+		00FD27D8167770F300F82BC4 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */; };
+		00FD27D9167770F300F82BC4 /* ImportContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */; };
+		00FD27DA167770F300F82BC4 /* ContactModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */; };
+		00FD27DB167770F300F82BC4 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CE01677667900EB8DA5 /* Contact.m */; };
+		00FD27DC167770F300F82BC4 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CF5167766C200EB8DA5 /* ContactManager.m */; };
+		00FD27DE167770F300F82BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		00FD27DF167770F300F82BC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		00FD27E0167770F300F82BC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		00FD27E1167770F300F82BC4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFB1677677D00EB8DA5 /* AddressBook.framework */; };
+		00FD27E2167770F300F82BC4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFD1677677D00EB8DA5 /* AddressBookUI.framework */; };
+		00FD27E3167770F300F82BC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFF1677677D00EB8DA5 /* CoreData.framework */; };
+		00FD27E4167770F300F82BC4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2D011677677D00EB8DA5 /* CoreLocation.framework */; };
+		00FD27ED167770F800F82BC4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		00FD27EE167770F800F82BC4 /* RescueMe_SPLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RescueMe_SPLViewController.xib */; };
+		00FD27EF167770F800F82BC4 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CB3167763F500EB8DA5 /* ContactViewController.xib */; };
+		00FD27F0167770F800F82BC4 /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CC01677649C00EB8DA5 /* AddContactViewController.xib */; };
+		00FD27F1167770F800F82BC4 /* ImportContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CCD1677650C00EB8DA5 /* ImportContactViewController.xib */; };
+		00FD27F2167770F800F82BC4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3116776CFB00EB8DA5 /* background.png */; };
+		00FD27F3167770F800F82BC4 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3216776CFB00EB8DA5 /* background@2x.png */; };
+		00FD27F4167770F800F82BC4 /* background568.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3316776CFB00EB8DA5 /* background568.png */; };
+		00FD27F5167770F800F82BC4 /* botao.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3416776CFB00EB8DA5 /* botao.png */; };
+		00FD27F6167770F800F82BC4 /* botao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3516776CFB00EB8DA5 /* botao@2x.png */; };
+		00FD27F7167770F800F82BC4 /* botaoPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3616776CFB00EB8DA5 /* botaoPressed.png */; };
+		00FD27F8167770F800F82BC4 /* botaoPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3716776CFB00EB8DA5 /* botaoPressed@2x.png */; };
+		00FD27F9167770F800F82BC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3816776CFB00EB8DA5 /* Default-568h@2x.png */; };
+		00FD27FA167770F800F82BC4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3916776CFB00EB8DA5 /* Default.png */; };
+		00FD27FB167770F800F82BC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3A16776CFB00EB8DA5 /* Default@2x.png */; };
+		00FD27FC167770F800F82BC4 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3B16776CFB00EB8DA5 /* gear.png */; };
+		00FD27FD167770F800F82BC4 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3C16776CFB00EB8DA5 /* gear@2x.png */; };
+		00FD27FE167770F800F82BC4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3D16776CFB00EB8DA5 /* Icon.png */; };
+		00FD27FF167770F800F82BC4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3E16776CFB00EB8DA5 /* Icon@2x.png */; };
+		00FD2800167770F800F82BC4 /* rescue.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3F16776CFB00EB8DA5 /* rescue.png */; };
+		00FD2801167770F800F82BC4 /* rescue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D4016776CFB00EB8DA5 /* rescue@2x.png */; };
+		00FD2803167770F800F82BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		00FD2804167770F800F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */; };
+		00FD2805167770F800F82BC4 /* RescueMe_SPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */; };
+		00FD2806167770F800F82BC4 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */; };
+		00FD2807167770F800F82BC4 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */; };
+		00FD2808167770F800F82BC4 /* ImportContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */; };
+		00FD2809167770F800F82BC4 /* ContactModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */; };
+		00FD280A167770F800F82BC4 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CE01677667900EB8DA5 /* Contact.m */; };
+		00FD280B167770F800F82BC4 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CF5167766C200EB8DA5 /* ContactManager.m */; };
+		00FD280D167770F800F82BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		00FD280E167770F800F82BC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		00FD280F167770F800F82BC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		00FD2810167770F800F82BC4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFB1677677D00EB8DA5 /* AddressBook.framework */; };
+		00FD2811167770F800F82BC4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFD1677677D00EB8DA5 /* AddressBookUI.framework */; };
+		00FD2812167770F800F82BC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFF1677677D00EB8DA5 /* CoreData.framework */; };
+		00FD2813167770F800F82BC4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2D011677677D00EB8DA5 /* CoreLocation.framework */; };
+		00FD281C167770FD00F82BC4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		00FD281D167770FD00F82BC4 /* RescueMe_SPLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RescueMe_SPLViewController.xib */; };
+		00FD281E167770FD00F82BC4 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CB3167763F500EB8DA5 /* ContactViewController.xib */; };
+		00FD281F167770FD00F82BC4 /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CC01677649C00EB8DA5 /* AddContactViewController.xib */; };
+		00FD2820167770FD00F82BC4 /* ImportContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CCD1677650C00EB8DA5 /* ImportContactViewController.xib */; };
+		00FD2821167770FD00F82BC4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3116776CFB00EB8DA5 /* background.png */; };
+		00FD2822167770FD00F82BC4 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3216776CFB00EB8DA5 /* background@2x.png */; };
+		00FD2823167770FD00F82BC4 /* background568.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3316776CFB00EB8DA5 /* background568.png */; };
+		00FD2824167770FD00F82BC4 /* botao.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3416776CFB00EB8DA5 /* botao.png */; };
+		00FD2825167770FD00F82BC4 /* botao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3516776CFB00EB8DA5 /* botao@2x.png */; };
+		00FD2826167770FD00F82BC4 /* botaoPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3616776CFB00EB8DA5 /* botaoPressed.png */; };
+		00FD2827167770FD00F82BC4 /* botaoPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3716776CFB00EB8DA5 /* botaoPressed@2x.png */; };
+		00FD2828167770FD00F82BC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3816776CFB00EB8DA5 /* Default-568h@2x.png */; };
+		00FD2829167770FD00F82BC4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3916776CFB00EB8DA5 /* Default.png */; };
+		00FD282A167770FD00F82BC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3A16776CFB00EB8DA5 /* Default@2x.png */; };
+		00FD282B167770FD00F82BC4 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3B16776CFB00EB8DA5 /* gear.png */; };
+		00FD282C167770FD00F82BC4 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3C16776CFB00EB8DA5 /* gear@2x.png */; };
+		00FD282D167770FD00F82BC4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3D16776CFB00EB8DA5 /* Icon.png */; };
+		00FD282E167770FD00F82BC4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3E16776CFB00EB8DA5 /* Icon@2x.png */; };
+		00FD282F167770FD00F82BC4 /* rescue.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3F16776CFB00EB8DA5 /* rescue.png */; };
+		00FD2830167770FD00F82BC4 /* rescue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D4016776CFB00EB8DA5 /* rescue@2x.png */; };
+		00FD2832167770FD00F82BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		00FD2833167770FD00F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */; };
+		00FD2834167770FD00F82BC4 /* RescueMe_SPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */; };
+		00FD2835167770FD00F82BC4 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */; };
+		00FD2836167770FD00F82BC4 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */; };
+		00FD2837167770FD00F82BC4 /* ImportContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */; };
+		00FD2838167770FD00F82BC4 /* ContactModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */; };
+		00FD2839167770FD00F82BC4 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CE01677667900EB8DA5 /* Contact.m */; };
+		00FD283A167770FD00F82BC4 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CF5167766C200EB8DA5 /* ContactManager.m */; };
+		00FD283C167770FD00F82BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		00FD283D167770FD00F82BC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		00FD283E167770FD00F82BC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		00FD283F167770FD00F82BC4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFB1677677D00EB8DA5 /* AddressBook.framework */; };
+		00FD2840167770FD00F82BC4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFD1677677D00EB8DA5 /* AddressBookUI.framework */; };
+		00FD2841167770FD00F82BC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFF1677677D00EB8DA5 /* CoreData.framework */; };
+		00FD2842167770FD00F82BC4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2D011677677D00EB8DA5 /* CoreLocation.framework */; };
+		00FD284B1677710300F82BC4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		00FD284C1677710300F82BC4 /* RescueMe_SPLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RescueMe_SPLViewController.xib */; };
+		00FD284D1677710300F82BC4 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CB3167763F500EB8DA5 /* ContactViewController.xib */; };
+		00FD284E1677710300F82BC4 /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CC01677649C00EB8DA5 /* AddContactViewController.xib */; };
+		00FD284F1677710300F82BC4 /* ImportContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CCD1677650C00EB8DA5 /* ImportContactViewController.xib */; };
+		00FD28501677710300F82BC4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3116776CFB00EB8DA5 /* background.png */; };
+		00FD28511677710300F82BC4 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3216776CFB00EB8DA5 /* background@2x.png */; };
+		00FD28521677710300F82BC4 /* background568.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3316776CFB00EB8DA5 /* background568.png */; };
+		00FD28531677710300F82BC4 /* botao.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3416776CFB00EB8DA5 /* botao.png */; };
+		00FD28541677710300F82BC4 /* botao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3516776CFB00EB8DA5 /* botao@2x.png */; };
+		00FD28551677710300F82BC4 /* botaoPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3616776CFB00EB8DA5 /* botaoPressed.png */; };
+		00FD28561677710300F82BC4 /* botaoPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3716776CFB00EB8DA5 /* botaoPressed@2x.png */; };
+		00FD28571677710300F82BC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3816776CFB00EB8DA5 /* Default-568h@2x.png */; };
+		00FD28581677710300F82BC4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3916776CFB00EB8DA5 /* Default.png */; };
+		00FD28591677710300F82BC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3A16776CFB00EB8DA5 /* Default@2x.png */; };
+		00FD285A1677710300F82BC4 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3B16776CFB00EB8DA5 /* gear.png */; };
+		00FD285B1677710300F82BC4 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3C16776CFB00EB8DA5 /* gear@2x.png */; };
+		00FD285C1677710300F82BC4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3D16776CFB00EB8DA5 /* Icon.png */; };
+		00FD285D1677710300F82BC4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3E16776CFB00EB8DA5 /* Icon@2x.png */; };
+		00FD285E1677710300F82BC4 /* rescue.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3F16776CFB00EB8DA5 /* rescue.png */; };
+		00FD285F1677710300F82BC4 /* rescue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D4016776CFB00EB8DA5 /* rescue@2x.png */; };
+		00FD28611677710300F82BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		00FD28621677710300F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */; };
+		00FD28631677710300F82BC4 /* RescueMe_SPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */; };
+		00FD28641677710300F82BC4 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */; };
+		00FD28651677710300F82BC4 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */; };
+		00FD28661677710300F82BC4 /* ImportContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */; };
+		00FD28671677710300F82BC4 /* ContactModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */; };
+		00FD28681677710300F82BC4 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CE01677667900EB8DA5 /* Contact.m */; };
+		00FD28691677710300F82BC4 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CF5167766C200EB8DA5 /* ContactManager.m */; };
+		00FD286B1677710300F82BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		00FD286C1677710300F82BC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		00FD286D1677710300F82BC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		00FD286E1677710300F82BC4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFB1677677D00EB8DA5 /* AddressBook.framework */; };
+		00FD286F1677710300F82BC4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFD1677677D00EB8DA5 /* AddressBookUI.framework */; };
+		00FD28701677710300F82BC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFF1677677D00EB8DA5 /* CoreData.framework */; };
+		00FD28711677710300F82BC4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2D011677677D00EB8DA5 /* CoreLocation.framework */; };
+		1D3623260D0F684500981E51 /* RescueMe_SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* RescueMe_SPLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RescueMe_SPLViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* RescueMe_SPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */; };
+		404D2CB6167763F500EB8DA5 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CB2167763F500EB8DA5 /* ContactViewController.m */; };
+		404D2CB7167763F500EB8DA5 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CB3167763F500EB8DA5 /* ContactViewController.xib */; };
+		404D2CC31677649C00EB8DA5 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */; };
+		404D2CC41677649C00EB8DA5 /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CC01677649C00EB8DA5 /* AddContactViewController.xib */; };
+		404D2CD01677650C00EB8DA5 /* ImportContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */; };
+		404D2CD11677650C00EB8DA5 /* ImportContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404D2CCD1677650C00EB8DA5 /* ImportContactViewController.xib */; };
+		404D2CDB1677659800EB8DA5 /* ContactModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */; };
+		404D2CE21677667900EB8DA5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CE01677667900EB8DA5 /* Contact.m */; };
+		404D2CF7167766C200EB8DA5 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D2CF5167766C200EB8DA5 /* ContactManager.m */; };
+		404D2CFC1677677D00EB8DA5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFB1677677D00EB8DA5 /* AddressBook.framework */; };
+		404D2CFE1677677D00EB8DA5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFD1677677D00EB8DA5 /* AddressBookUI.framework */; };
+		404D2D001677677D00EB8DA5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2CFF1677677D00EB8DA5 /* CoreData.framework */; };
+		404D2D021677677D00EB8DA5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D2D011677677D00EB8DA5 /* CoreLocation.framework */; };
+		404D2D5116776CFB00EB8DA5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3116776CFB00EB8DA5 /* background.png */; };
+		404D2D5216776CFB00EB8DA5 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3216776CFB00EB8DA5 /* background@2x.png */; };
+		404D2D5316776CFB00EB8DA5 /* background568.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3316776CFB00EB8DA5 /* background568.png */; };
+		404D2D5416776CFB00EB8DA5 /* botao.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3416776CFB00EB8DA5 /* botao.png */; };
+		404D2D5516776CFB00EB8DA5 /* botao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3516776CFB00EB8DA5 /* botao@2x.png */; };
+		404D2D5616776CFB00EB8DA5 /* botaoPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3616776CFB00EB8DA5 /* botaoPressed.png */; };
+		404D2D5716776CFB00EB8DA5 /* botaoPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3716776CFB00EB8DA5 /* botaoPressed@2x.png */; };
+		404D2D5816776CFB00EB8DA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3816776CFB00EB8DA5 /* Default-568h@2x.png */; };
+		404D2D5916776CFB00EB8DA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3916776CFB00EB8DA5 /* Default.png */; };
+		404D2D5A16776CFB00EB8DA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3A16776CFB00EB8DA5 /* Default@2x.png */; };
+		404D2D5B16776CFB00EB8DA5 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3B16776CFB00EB8DA5 /* gear.png */; };
+		404D2D5C16776CFB00EB8DA5 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3C16776CFB00EB8DA5 /* gear@2x.png */; };
+		404D2D5D16776CFB00EB8DA5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3D16776CFB00EB8DA5 /* Icon.png */; };
+		404D2D5E16776CFB00EB8DA5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3E16776CFB00EB8DA5 /* Icon@2x.png */; };
+		404D2D5F16776CFB00EB8DA5 /* rescue.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D3F16776CFB00EB8DA5 /* rescue.png */; };
+		404D2D6016776CFB00EB8DA5 /* rescue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 404D2D4016776CFB00EB8DA5 /* rescue@2x.png */; };
+		B631FA77171F23A100B62833 /* FacebookCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA76171F23A100B62833 /* FacebookCommunicationController.m */; };
+		B631FA78171F23A100B62833 /* FacebookCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA76171F23A100B62833 /* FacebookCommunicationController.m */; };
+		B631FA93171F277C00B62833 /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA82171F277C00B62833 /* XMPPAnonymousAuthentication.m */; };
+		B631FA94171F277C00B62833 /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA82171F277C00B62833 /* XMPPAnonymousAuthentication.m */; };
+		B631FA95171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA85171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m */; };
+		B631FA96171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA85171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m */; };
+		B631FA97171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA88171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m */; };
+		B631FA98171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA88171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m */; };
+		B631FA99171F277C00B62833 /* XMPPDigestMD5Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA8B171F277C00B62833 /* XMPPDigestMD5Authentication.m */; };
+		B631FA9A171F277C00B62833 /* XMPPDigestMD5Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA8B171F277C00B62833 /* XMPPDigestMD5Authentication.m */; };
+		B631FA9B171F277C00B62833 /* XMPPPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA8E171F277C00B62833 /* XMPPPlainAuthentication.m */; };
+		B631FA9C171F277C00B62833 /* XMPPPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA8E171F277C00B62833 /* XMPPPlainAuthentication.m */; };
+		B631FA9D171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA91171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m */; };
+		B631FA9E171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FA91171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m */; };
+		B631FAC7171F27AC00B62833 /* NSData+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA1171F27AC00B62833 /* NSData+XMPP.m */; };
+		B631FAC8171F27AC00B62833 /* NSData+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA1171F27AC00B62833 /* NSData+XMPP.m */; };
+		B631FAC9171F27AC00B62833 /* NSNumber+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA3171F27AC00B62833 /* NSNumber+XMPP.m */; };
+		B631FACA171F27AC00B62833 /* NSNumber+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA3171F27AC00B62833 /* NSNumber+XMPP.m */; };
+		B631FACB171F27AC00B62833 /* NSXMLElement+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA5171F27AC00B62833 /* NSXMLElement+XMPP.m */; };
+		B631FACC171F27AC00B62833 /* NSXMLElement+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA5171F27AC00B62833 /* NSXMLElement+XMPP.m */; };
+		B631FACD171F27AC00B62833 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA9171F27AC00B62833 /* XMPPElement.m */; };
+		B631FACE171F27AC00B62833 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAA9171F27AC00B62833 /* XMPPElement.m */; };
+		B631FACF171F27AC00B62833 /* XMPPIQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAAC171F27AC00B62833 /* XMPPIQ.m */; };
+		B631FAD0171F27AC00B62833 /* XMPPIQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAAC171F27AC00B62833 /* XMPPIQ.m */; };
+		B631FAD1171F27AC00B62833 /* XMPPJID.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAAE171F27AC00B62833 /* XMPPJID.m */; };
+		B631FAD2171F27AC00B62833 /* XMPPJID.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAAE171F27AC00B62833 /* XMPPJID.m */; };
+		B631FAD3171F27AC00B62833 /* XMPPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB1171F27AC00B62833 /* XMPPMessage.m */; };
+		B631FAD4171F27AC00B62833 /* XMPPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB1171F27AC00B62833 /* XMPPMessage.m */; };
+		B631FAD5171F27AC00B62833 /* XMPPModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB3171F27AC00B62833 /* XMPPModule.m */; };
+		B631FAD6171F27AC00B62833 /* XMPPModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB3171F27AC00B62833 /* XMPPModule.m */; };
+		B631FAD7171F27AC00B62833 /* XMPPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB5171F27AC00B62833 /* XMPPParser.m */; };
+		B631FAD8171F27AC00B62833 /* XMPPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB5171F27AC00B62833 /* XMPPParser.m */; };
+		B631FAD9171F27AC00B62833 /* XMPPPresence.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB7171F27AC00B62833 /* XMPPPresence.m */; };
+		B631FADA171F27AC00B62833 /* XMPPPresence.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB7171F27AC00B62833 /* XMPPPresence.m */; };
+		B631FADB171F27AC00B62833 /* XMPPStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB9171F27AC00B62833 /* XMPPStream.m */; };
+		B631FADC171F27AC00B62833 /* XMPPStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAB9171F27AC00B62833 /* XMPPStream.m */; };
+		B631FADD171F27AC00B62833 /* DDList.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FABC171F27AC00B62833 /* DDList.m */; };
+		B631FADE171F27AC00B62833 /* DDList.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FABC171F27AC00B62833 /* DDList.m */; };
+		B631FADF171F27AC00B62833 /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FABE171F27AC00B62833 /* GCDMulticastDelegate.m */; };
+		B631FAE0171F27AC00B62833 /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FABE171F27AC00B62833 /* GCDMulticastDelegate.m */; };
+		B631FAE1171F27AC00B62833 /* LibIDN.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC0171F27AC00B62833 /* LibIDN.m */; };
+		B631FAE2171F27AC00B62833 /* LibIDN.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC0171F27AC00B62833 /* LibIDN.m */; };
+		B631FAE3171F27AC00B62833 /* RFImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC2171F27AC00B62833 /* RFImageToDataTransformer.m */; };
+		B631FAE4171F27AC00B62833 /* RFImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC2171F27AC00B62833 /* RFImageToDataTransformer.m */; };
+		B631FAE5171F27AC00B62833 /* XMPPIDTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC4171F27AC00B62833 /* XMPPIDTracker.m */; };
+		B631FAE6171F27AC00B62833 /* XMPPIDTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC4171F27AC00B62833 /* XMPPIDTracker.m */; };
+		B631FAE7171F27AC00B62833 /* XMPPSRVResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC6171F27AC00B62833 /* XMPPSRVResolver.m */; };
+		B631FAE8171F27AC00B62833 /* XMPPSRVResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAC6171F27AC00B62833 /* XMPPSRVResolver.m */; };
+		B631FB60171F27FA00B62833 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAEC171F27FA00B62833 /* GCDAsyncSocket.m */; };
+		B631FB61171F27FA00B62833 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAEC171F27FA00B62833 /* GCDAsyncSocket.m */; };
+		B631FB62171F27FA00B62833 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAEF171F27FA00B62833 /* DDAbstractDatabaseLogger.m */; };
+		B631FB63171F27FA00B62833 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAEF171F27FA00B62833 /* DDAbstractDatabaseLogger.m */; };
+		B631FB64171F27FA00B62833 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF1171F27FA00B62833 /* DDASLLogger.m */; };
+		B631FB65171F27FA00B62833 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF1171F27FA00B62833 /* DDASLLogger.m */; };
+		B631FB66171F27FA00B62833 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF3171F27FA00B62833 /* DDFileLogger.m */; };
+		B631FB67171F27FA00B62833 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF3171F27FA00B62833 /* DDFileLogger.m */; };
+		B631FB68171F27FA00B62833 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF5171F27FA00B62833 /* DDLog.m */; };
+		B631FB69171F27FA00B62833 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF5171F27FA00B62833 /* DDLog.m */; };
+		B631FB6A171F27FA00B62833 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF7171F27FA00B62833 /* DDTTYLogger.m */; };
+		B631FB6B171F27FA00B62833 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAF7171F27FA00B62833 /* DDTTYLogger.m */; };
+		B631FB6C171F27FA00B62833 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAFA171F27FA00B62833 /* ContextFilterLogFormatter.m */; };
+		B631FB6D171F27FA00B62833 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAFA171F27FA00B62833 /* ContextFilterLogFormatter.m */; };
+		B631FB6E171F27FA00B62833 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAFC171F27FA00B62833 /* DispatchQueueLogFormatter.m */; };
+		B631FB6F171F27FA00B62833 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FAFC171F27FA00B62833 /* DispatchQueueLogFormatter.m */; };
+		B631FB70171F27FA00B62833 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B631FAFD171F27FA00B62833 /* README.txt */; };
+		B631FB71171F27FA00B62833 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B631FAFD171F27FA00B62833 /* README.txt */; };
+		B631FBBA171F27FA00B62833 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB51171F27FA00B62833 /* NSString+DDXML.m */; };
+		B631FBBB171F27FA00B62833 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB51171F27FA00B62833 /* NSString+DDXML.m */; };
+		B631FBBC171F27FA00B62833 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB54171F27FA00B62833 /* DDXMLDocument.m */; };
+		B631FBBD171F27FA00B62833 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB54171F27FA00B62833 /* DDXMLDocument.m */; };
+		B631FBBE171F27FA00B62833 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB56171F27FA00B62833 /* DDXMLElement.m */; };
+		B631FBBF171F27FA00B62833 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB56171F27FA00B62833 /* DDXMLElement.m */; };
+		B631FBC0171F27FA00B62833 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB58171F27FA00B62833 /* DDXMLNode.m */; };
+		B631FBC1171F27FA00B62833 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B631FB58171F27FA00B62833 /* DDXMLNode.m */; };
+		B631FBC2171F27FA00B62833 /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = B631FB5C171F27FA00B62833 /* build-libidn.sh */; };
+		B631FBC3171F27FA00B62833 /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = B631FB5C171F27FA00B62833 /* build-libidn.sh */; };
+		B631FBC4171F27FA00B62833 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FB5E171F27FA00B62833 /* libidn.a */; };
+		B631FBC5171F27FA00B62833 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FB5E171F27FA00B62833 /* libidn.a */; };
+		B631FBD0171F297000B62833 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FBCF171F296F00B62833 /* Security.framework */; };
+		B631FBD1171F297700B62833 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FBCF171F296F00B62833 /* Security.framework */; };
+		B631FBD3171F299100B62833 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FBD2171F299100B62833 /* CFNetwork.framework */; };
+		B631FBD5171F29A600B62833 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FBD4171F29A500B62833 /* libresolv.dylib */; };
+		B631FBD6171F2A7600B62833 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FBD2171F299100B62833 /* CFNetwork.framework */; };
+		B631FBD7171F2A8D00B62833 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B631FBD4171F29A500B62833 /* libresolv.dylib */; };
+		B65D75851719AB070084BF79 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D75841719AB070084BF79 /* Location.m */; };
+		B65D75861719AB070084BF79 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D75841719AB070084BF79 /* Location.m */; };
+		B65D75871719AB070084BF79 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D75841719AB070084BF79 /* Location.m */; };
+		B65D75881719AB070084BF79 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D75841719AB070084BF79 /* Location.m */; };
+		B65D75891719AB070084BF79 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D75841719AB070084BF79 /* Location.m */; };
+		B69DD789171C59AA005C8175 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD788171C59AA005C8175 /* FacebookSDK.framework */; };
+		B69DD78A171C59AA005C8175 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD788171C59AA005C8175 /* FacebookSDK.framework */; };
+		B69DD78C171C5FAB005C8175 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B69DD78B171C5FAB005C8175 /* FacebookSDKResources.bundle */; };
+		B69DD78D171C5FAB005C8175 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B69DD78B171C5FAB005C8175 /* FacebookSDKResources.bundle */; };
+		B69DD78F171C5FD2005C8175 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD78E171C5FD2005C8175 /* AdSupport.framework */; };
+		B69DD791171C5FDA005C8175 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD790171C5FDA005C8175 /* Accounts.framework */; };
+		B69DD793171C5FE1005C8175 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD792171C5FE1005C8175 /* Social.framework */; };
+		B69DD794171C5FEC005C8175 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD78E171C5FD2005C8175 /* AdSupport.framework */; };
+		B69DD795171C5FF3005C8175 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD790171C5FDA005C8175 /* Accounts.framework */; };
+		B69DD796171C5FFA005C8175 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69DD792171C5FE1005C8175 /* Social.framework */; };
+		B69DD798171C63CE005C8175 /* RescueMe-Ultimate.plist in Resources */ = {isa = PBXBuildFile; fileRef = B69DD797171C63CE005C8175 /* RescueMe-Ultimate.plist */; };
+		B69DD79A171C63D9005C8175 /* RescueMe-Standard.plist in Resources */ = {isa = PBXBuildFile; fileRef = B69DD799171C63D9005C8175 /* RescueMe-Standard.plist */; };
+		B69DD79C171C63E3005C8175 /* RescueMe-Social.plist in Resources */ = {isa = PBXBuildFile; fileRef = B69DD79B171C63E3005C8175 /* RescueMe-Social.plist */; };
+		B69DD79E171C63EB005C8175 /* RescueMe-Pro.plist in Resources */ = {isa = PBXBuildFile; fileRef = B69DD79D171C63EB005C8175 /* RescueMe-Pro.plist */; };
+		B69DD7A0171C63F4005C8175 /* RescueMe-Lite.plist in Resources */ = {isa = PBXBuildFile; fileRef = B69DD79F171C63F4005C8175 /* RescueMe-Lite.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0003212D16CD5F7900D03E0C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0067093416CD4DA900FCB5E2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		00AD71F0171F2BCA007F5328 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		00AD71F1171F2BCA007F5328 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		00AD71F2171F2BCA007F5328 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
+		00AD71FE171F404C007F5328 /* HowToUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowToUseViewController.h; sourceTree = "<group>"; };
+		00AD71FF171F404C007F5328 /* HowToUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowToUseViewController.m; sourceTree = "<group>"; };
+		00AD7200171F404C007F5328 /* HowToUseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HowToUseViewController.xib; path = Classes/HowToUseViewController.xib; sourceTree = "<group>"; };
+		00FD27E8167770F300F82BC4 /* RescueMe-Standard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RescueMe-Standard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD27EA167770F300F82BC4 /* RescueMe-Standard.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RescueMe-Standard.plist"; path = "/Users/tassiovale/Dropbox/RescueMe SPL/Domain Engineering/Code/RescueMe-SPL/RescueMe-Standard.plist"; sourceTree = "<absolute>"; };
+		00FD2817167770F800F82BC4 /* RescueMe-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RescueMe-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD2819167770F900F82BC4 /* RescueMe-Social.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RescueMe-Social.plist"; path = "/Users/tassiovale/Dropbox/RescueMe SPL/Domain Engineering/Code/RescueMe-SPL/RescueMe-Social.plist"; sourceTree = "<absolute>"; };
+		00FD2846167770FD00F82BC4 /* RescueMe-Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RescueMe-Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD2848167770FD00F82BC4 /* RescueMe-Pro.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RescueMe-Pro.plist"; path = "/Users/tassiovale/Dropbox/RescueMe SPL/Domain Engineering/Code/RescueMe-SPL/RescueMe-Pro.plist"; sourceTree = "<absolute>"; };
+		00FD28751677710300F82BC4 /* RescueMe-Ultimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RescueMe-Ultimate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD28771677710400F82BC4 /* RescueMe-Ultimate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RescueMe-Ultimate.plist"; path = "/Users/tassiovale/Dropbox/RescueMe SPL/Domain Engineering/Code/RescueMe-SPL/RescueMe-Ultimate.plist"; sourceTree = "<absolute>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RescueMe_SPLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RescueMe_SPLAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RescueMe_SPLAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RescueMe-Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RescueMe-Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* RescueMe_SPLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RescueMe_SPLViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RescueMe_SPLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RescueMe_SPLViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RescueMe_SPLViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RescueMe_SPL_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RescueMe_SPL_Prefix.pch; sourceTree = "<group>"; };
+		404D2CB1167763F500EB8DA5 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		404D2CB2167763F500EB8DA5 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		404D2CB3167763F500EB8DA5 /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactViewController.xib; path = Classes/ContactViewController.xib; sourceTree = "<group>"; };
+		404D2CBE1677649C00EB8DA5 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		404D2CC01677649C00EB8DA5 /* AddContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddContactViewController.xib; path = Classes/AddContactViewController.xib; sourceTree = "<group>"; };
+		404D2CCB1677650C00EB8DA5 /* ImportContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportContactViewController.h; sourceTree = "<group>"; };
+		404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportContactViewController.m; sourceTree = "<group>"; };
+		404D2CCD1677650C00EB8DA5 /* ImportContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ImportContactViewController.xib; path = Classes/ImportContactViewController.xib; sourceTree = "<group>"; };
+		404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = ContactModel.xcdatamodel; sourceTree = "<group>"; };
+		404D2CDF1677667900EB8DA5 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = ../Contact.h; sourceTree = "<group>"; };
+		404D2CE01677667900EB8DA5 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = ../Contact.m; sourceTree = "<group>"; };
+		404D2CF4167766C200EB8DA5 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManager.h; sourceTree = "<group>"; };
+		404D2CF5167766C200EB8DA5 /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
+		404D2CFB1677677D00EB8DA5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		404D2CFD1677677D00EB8DA5 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		404D2CFF1677677D00EB8DA5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		404D2D011677677D00EB8DA5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		404D2D3116776CFB00EB8DA5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = images/background.png; sourceTree = "<group>"; };
+		404D2D3216776CFB00EB8DA5 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "images/background@2x.png"; sourceTree = "<group>"; };
+		404D2D3316776CFB00EB8DA5 /* background568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background568.png; path = images/background568.png; sourceTree = "<group>"; };
+		404D2D3416776CFB00EB8DA5 /* botao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botao.png; path = images/botao.png; sourceTree = "<group>"; };
+		404D2D3516776CFB00EB8DA5 /* botao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botao@2x.png"; path = "images/botao@2x.png"; sourceTree = "<group>"; };
+		404D2D3616776CFB00EB8DA5 /* botaoPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botaoPressed.png; path = images/botaoPressed.png; sourceTree = "<group>"; };
+		404D2D3716776CFB00EB8DA5 /* botaoPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botaoPressed@2x.png"; path = "images/botaoPressed@2x.png"; sourceTree = "<group>"; };
+		404D2D3816776CFB00EB8DA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		404D2D3916776CFB00EB8DA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
+		404D2D3A16776CFB00EB8DA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "images/Default@2x.png"; sourceTree = "<group>"; };
+		404D2D3B16776CFB00EB8DA5 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = images/gear.png; sourceTree = "<group>"; };
+		404D2D3C16776CFB00EB8DA5 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gear@2x.png"; path = "images/gear@2x.png"; sourceTree = "<group>"; };
+		404D2D3D16776CFB00EB8DA5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
+		404D2D3E16776CFB00EB8DA5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
+		404D2D3F16776CFB00EB8DA5 /* rescue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rescue.png; path = images/rescue.png; sourceTree = "<group>"; };
+		404D2D4016776CFB00EB8DA5 /* rescue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rescue@2x.png"; path = "images/rescue@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RescueMe-Lite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RescueMe-Lite.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B631FA75171F23A100B62833 /* FacebookCommunicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookCommunicationController.h; sourceTree = "<group>"; };
+		B631FA76171F23A100B62833 /* FacebookCommunicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookCommunicationController.m; sourceTree = "<group>"; };
+		B631FA81171F277C00B62833 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
+		B631FA82171F277C00B62833 /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
+		B631FA84171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
+		B631FA85171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDeprecatedDigestAuthentication.m; sourceTree = "<group>"; };
+		B631FA87171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedPlainAuthentication.h; sourceTree = "<group>"; };
+		B631FA88171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDeprecatedPlainAuthentication.m; sourceTree = "<group>"; };
+		B631FA8A171F277C00B62833 /* XMPPDigestMD5Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDigestMD5Authentication.h; sourceTree = "<group>"; };
+		B631FA8B171F277C00B62833 /* XMPPDigestMD5Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDigestMD5Authentication.m; sourceTree = "<group>"; };
+		B631FA8D171F277C00B62833 /* XMPPPlainAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPPlainAuthentication.h; sourceTree = "<group>"; };
+		B631FA8E171F277C00B62833 /* XMPPPlainAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPPlainAuthentication.m; sourceTree = "<group>"; };
+		B631FA90171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPXFacebookPlatformAuthentication.h; sourceTree = "<group>"; };
+		B631FA91171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPXFacebookPlatformAuthentication.m; sourceTree = "<group>"; };
+		B631FA92171F277C00B62833 /* XMPPSASLAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPSASLAuthentication.h; sourceTree = "<group>"; };
+		B631FAA0171F27AC00B62833 /* NSData+XMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XMPP.h"; sourceTree = "<group>"; };
+		B631FAA1171F27AC00B62833 /* NSData+XMPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XMPP.m"; sourceTree = "<group>"; };
+		B631FAA2171F27AC00B62833 /* NSNumber+XMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+XMPP.h"; sourceTree = "<group>"; };
+		B631FAA3171F27AC00B62833 /* NSNumber+XMPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+XMPP.m"; sourceTree = "<group>"; };
+		B631FAA4171F27AC00B62833 /* NSXMLElement+XMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSXMLElement+XMPP.h"; sourceTree = "<group>"; };
+		B631FAA5171F27AC00B62833 /* NSXMLElement+XMPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSXMLElement+XMPP.m"; sourceTree = "<group>"; };
+		B631FAA7171F27AC00B62833 /* XMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPP.h; sourceTree = "<group>"; };
+		B631FAA8171F27AC00B62833 /* XMPPElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPElement.h; sourceTree = "<group>"; };
+		B631FAA9171F27AC00B62833 /* XMPPElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPElement.m; sourceTree = "<group>"; };
+		B631FAAA171F27AC00B62833 /* XMPPInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPInternal.h; sourceTree = "<group>"; };
+		B631FAAB171F27AC00B62833 /* XMPPIQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPIQ.h; sourceTree = "<group>"; };
+		B631FAAC171F27AC00B62833 /* XMPPIQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPIQ.m; sourceTree = "<group>"; };
+		B631FAAD171F27AC00B62833 /* XMPPJID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPJID.h; sourceTree = "<group>"; };
+		B631FAAE171F27AC00B62833 /* XMPPJID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPJID.m; sourceTree = "<group>"; };
+		B631FAAF171F27AC00B62833 /* XMPPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPLogging.h; sourceTree = "<group>"; };
+		B631FAB0171F27AC00B62833 /* XMPPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPMessage.h; sourceTree = "<group>"; };
+		B631FAB1171F27AC00B62833 /* XMPPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPMessage.m; sourceTree = "<group>"; };
+		B631FAB2171F27AC00B62833 /* XMPPModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPModule.h; sourceTree = "<group>"; };
+		B631FAB3171F27AC00B62833 /* XMPPModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPModule.m; sourceTree = "<group>"; };
+		B631FAB4171F27AC00B62833 /* XMPPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPParser.h; sourceTree = "<group>"; };
+		B631FAB5171F27AC00B62833 /* XMPPParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPParser.m; sourceTree = "<group>"; };
+		B631FAB6171F27AC00B62833 /* XMPPPresence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPPresence.h; sourceTree = "<group>"; };
+		B631FAB7171F27AC00B62833 /* XMPPPresence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPPresence.m; sourceTree = "<group>"; };
+		B631FAB8171F27AC00B62833 /* XMPPStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPStream.h; sourceTree = "<group>"; };
+		B631FAB9171F27AC00B62833 /* XMPPStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPStream.m; sourceTree = "<group>"; };
+		B631FABB171F27AC00B62833 /* DDList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDList.h; sourceTree = "<group>"; };
+		B631FABC171F27AC00B62833 /* DDList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDList.m; sourceTree = "<group>"; };
+		B631FABD171F27AC00B62833 /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMulticastDelegate.h; sourceTree = "<group>"; };
+		B631FABE171F27AC00B62833 /* GCDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMulticastDelegate.m; sourceTree = "<group>"; };
+		B631FABF171F27AC00B62833 /* LibIDN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibIDN.h; sourceTree = "<group>"; };
+		B631FAC0171F27AC00B62833 /* LibIDN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibIDN.m; sourceTree = "<group>"; };
+		B631FAC1171F27AC00B62833 /* RFImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFImageToDataTransformer.h; sourceTree = "<group>"; };
+		B631FAC2171F27AC00B62833 /* RFImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFImageToDataTransformer.m; sourceTree = "<group>"; };
+		B631FAC3171F27AC00B62833 /* XMPPIDTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPIDTracker.h; sourceTree = "<group>"; };
+		B631FAC4171F27AC00B62833 /* XMPPIDTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPIDTracker.m; sourceTree = "<group>"; };
+		B631FAC5171F27AC00B62833 /* XMPPSRVResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPSRVResolver.h; sourceTree = "<group>"; };
+		B631FAC6171F27AC00B62833 /* XMPPSRVResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPSRVResolver.m; sourceTree = "<group>"; };
+		B631FAEB171F27FA00B62833 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B631FAEC171F27FA00B62833 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B631FAEE171F27FA00B62833 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		B631FAEF171F27FA00B62833 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		B631FAF0171F27FA00B62833 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		B631FAF1171F27FA00B62833 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		B631FAF2171F27FA00B62833 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		B631FAF3171F27FA00B62833 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		B631FAF4171F27FA00B62833 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		B631FAF5171F27FA00B62833 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		B631FAF6171F27FA00B62833 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		B631FAF7171F27FA00B62833 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		B631FAF9171F27FA00B62833 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		B631FAFA171F27FA00B62833 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		B631FAFB171F27FA00B62833 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		B631FAFC171F27FA00B62833 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		B631FAFD171F27FA00B62833 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		B631FB50171F27FA00B62833 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		B631FB51171F27FA00B62833 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		B631FB52171F27FA00B62833 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		B631FB53171F27FA00B62833 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		B631FB54171F27FA00B62833 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		B631FB55171F27FA00B62833 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		B631FB56171F27FA00B62833 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		B631FB57171F27FA00B62833 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		B631FB58171F27FA00B62833 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		B631FB5A171F27FA00B62833 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		B631FB5C171F27FA00B62833 /* build-libidn.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-libidn.sh"; sourceTree = "<group>"; };
+		B631FB5D171F27FA00B62833 /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
+		B631FB5E171F27FA00B62833 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
+		B631FB5F171F27FA00B62833 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
+		B631FBCF171F296F00B62833 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B631FBD2171F299100B62833 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B631FBD4171F29A500B62833 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		B65D75831719AB070084BF79 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		B65D75841719AB070084BF79 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		B69DD788171C59AA005C8175 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		B69DD78B171C5FAB005C8175 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		B69DD78E171C5FD2005C8175 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B69DD790171C5FDA005C8175 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		B69DD792171C5FE1005C8175 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B69DD797171C63CE005C8175 /* RescueMe-Ultimate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RescueMe-Ultimate.plist"; sourceTree = "<group>"; };
+		B69DD799171C63D9005C8175 /* RescueMe-Standard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RescueMe-Standard.plist"; sourceTree = "<group>"; };
+		B69DD79B171C63E3005C8175 /* RescueMe-Social.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RescueMe-Social.plist"; sourceTree = "<group>"; };
+		B69DD79D171C63EB005C8175 /* RescueMe-Pro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RescueMe-Pro.plist"; sourceTree = "<group>"; };
+		B69DD79F171C63F4005C8175 /* RescueMe-Lite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RescueMe-Lite.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00FD27DD167770F300F82BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0067093816CD4DB700FCB5E2 /* MessageUI.framework in Frameworks */,
+				00FD27DE167770F300F82BC4 /* Foundation.framework in Frameworks */,
+				00FD27DF167770F300F82BC4 /* UIKit.framework in Frameworks */,
+				00FD27E0167770F300F82BC4 /* CoreGraphics.framework in Frameworks */,
+				00FD27E1167770F300F82BC4 /* AddressBook.framework in Frameworks */,
+				00FD27E2167770F300F82BC4 /* AddressBookUI.framework in Frameworks */,
+				00FD27E3167770F300F82BC4 /* CoreData.framework in Frameworks */,
+				00FD27E4167770F300F82BC4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD280C167770F800F82BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B631FBD7171F2A8D00B62833 /* libresolv.dylib in Frameworks */,
+				B631FBD6171F2A7600B62833 /* CFNetwork.framework in Frameworks */,
+				B631FBD0171F297000B62833 /* Security.framework in Frameworks */,
+				B69DD793171C5FE1005C8175 /* Social.framework in Frameworks */,
+				B69DD791171C5FDA005C8175 /* Accounts.framework in Frameworks */,
+				B69DD78F171C5FD2005C8175 /* AdSupport.framework in Frameworks */,
+				0067093916CD4DBD00FCB5E2 /* MessageUI.framework in Frameworks */,
+				00FD280D167770F800F82BC4 /* Foundation.framework in Frameworks */,
+				00FD280E167770F800F82BC4 /* UIKit.framework in Frameworks */,
+				00FD280F167770F800F82BC4 /* CoreGraphics.framework in Frameworks */,
+				00FD2810167770F800F82BC4 /* AddressBook.framework in Frameworks */,
+				00FD2811167770F800F82BC4 /* AddressBookUI.framework in Frameworks */,
+				00FD2812167770F800F82BC4 /* CoreData.framework in Frameworks */,
+				00FD2813167770F800F82BC4 /* CoreLocation.framework in Frameworks */,
+				B69DD789171C59AA005C8175 /* FacebookSDK.framework in Frameworks */,
+				B631FBC4171F27FA00B62833 /* libidn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD283B167770FD00F82BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0067093716CD4DB000FCB5E2 /* MessageUI.framework in Frameworks */,
+				00FD283C167770FD00F82BC4 /* Foundation.framework in Frameworks */,
+				00FD283D167770FD00F82BC4 /* UIKit.framework in Frameworks */,
+				00FD283E167770FD00F82BC4 /* CoreGraphics.framework in Frameworks */,
+				00FD283F167770FD00F82BC4 /* AddressBook.framework in Frameworks */,
+				00FD2840167770FD00F82BC4 /* AddressBookUI.framework in Frameworks */,
+				00FD2841167770FD00F82BC4 /* CoreData.framework in Frameworks */,
+				00FD2842167770FD00F82BC4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD286A1677710300F82BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B631FBD5171F29A600B62833 /* libresolv.dylib in Frameworks */,
+				B631FBD3171F299100B62833 /* CFNetwork.framework in Frameworks */,
+				B631FBD1171F297700B62833 /* Security.framework in Frameworks */,
+				B69DD796171C5FFA005C8175 /* Social.framework in Frameworks */,
+				B69DD795171C5FF3005C8175 /* Accounts.framework in Frameworks */,
+				B69DD794171C5FEC005C8175 /* AdSupport.framework in Frameworks */,
+				0067093A16CD4DC300FCB5E2 /* MessageUI.framework in Frameworks */,
+				00FD286B1677710300F82BC4 /* Foundation.framework in Frameworks */,
+				00FD286C1677710300F82BC4 /* UIKit.framework in Frameworks */,
+				00FD286D1677710300F82BC4 /* CoreGraphics.framework in Frameworks */,
+				00FD286E1677710300F82BC4 /* AddressBook.framework in Frameworks */,
+				00FD286F1677710300F82BC4 /* AddressBookUI.framework in Frameworks */,
+				00FD28701677710300F82BC4 /* CoreData.framework in Frameworks */,
+				00FD28711677710300F82BC4 /* CoreLocation.framework in Frameworks */,
+				B69DD78A171C59AA005C8175 /* FacebookSDK.framework in Frameworks */,
+				B631FBC5171F27FA00B62833 /* libidn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0067093516CD4DA900FCB5E2 /* MessageUI.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				404D2CFC1677677D00EB8DA5 /* AddressBook.framework in Frameworks */,
+				404D2CFE1677677D00EB8DA5 /* AddressBookUI.framework in Frameworks */,
+				404D2D001677677D00EB8DA5 /* CoreData.framework in Frameworks */,
+				404D2D021677677D00EB8DA5 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FD27BB1677704700F82BC4 /* plist Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* RescueMe-Lite.plist */,
+				00FD27EA167770F300F82BC4 /* RescueMe-Standard.plist */,
+				00FD2819167770F900F82BC4 /* RescueMe-Social.plist */,
+				00FD2848167770FD00F82BC4 /* RescueMe-Pro.plist */,
+				00FD28771677710400F82BC4 /* RescueMe-Ultimate.plist */,
+			);
+			name = "plist Files";
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B65D75821719AACE0084BF79 /* Location */,
+				1D3623240D0F684500981E51 /* RescueMe_SPLAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RescueMe_SPLAppDelegate.m */,
+				404D2C6C1677620900EB8DA5 /* Controller */,
+				404D2C6D1677621600EB8DA5 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RescueMe-Lite.app */,
+				00FD27E8167770F300F82BC4 /* RescueMe-Standard.app */,
+				00FD2817167770F800F82BC4 /* RescueMe-Social.app */,
+				00FD2846167770FD00F82BC4 /* RescueMe-Pro.app */,
+				00FD28751677710300F82BC4 /* RescueMe-Ultimate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B631FBD4171F29A500B62833 /* libresolv.dylib */,
+				B631FBD2171F299100B62833 /* CFNetwork.framework */,
+				B631FBCF171F296F00B62833 /* Security.framework */,
+				B631FA79171F273E00B62833 /* 3rd Party */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B69DD79F171C63F4005C8175 /* RescueMe-Lite.plist */,
+				B69DD799171C63D9005C8175 /* RescueMe-Standard.plist */,
+				B69DD79D171C63EB005C8175 /* RescueMe-Pro.plist */,
+				B69DD79B171C63E3005C8175 /* RescueMe-Social.plist */,
+				B69DD797171C63CE005C8175 /* RescueMe-Ultimate.plist */,
+				32CA4F630368D1EE00C91783 /* RescueMe_SPL_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				404D2CB01677639400EB8DA5 /* XIB Files */,
+				404D2CD81677656800EB8DA5 /* Data Model */,
+				404D2D3016776CD300EB8DA5 /* Images */,
+				00FD27BB1677704700F82BC4 /* plist Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B69DD792171C5FE1005C8175 /* Social.framework */,
+				B69DD790171C5FDA005C8175 /* Accounts.framework */,
+				B69DD78E171C5FD2005C8175 /* AdSupport.framework */,
+				B69DD78B171C5FAB005C8175 /* FacebookSDKResources.bundle */,
+				B69DD788171C59AA005C8175 /* FacebookSDK.framework */,
+				0067093416CD4DA900FCB5E2 /* MessageUI.framework */,
+				0003212D16CD5F7900D03E0C /* MessageUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				404D2CFB1677677D00EB8DA5 /* AddressBook.framework */,
+				404D2CFD1677677D00EB8DA5 /* AddressBookUI.framework */,
+				404D2CFF1677677D00EB8DA5 /* CoreData.framework */,
+				404D2D011677677D00EB8DA5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		404D2C6C1677620900EB8DA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA74171F22DC00B62833 /* Facebook */,
+				28D7ACF60DDB3853001CB0EB /* RescueMe_SPLViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RescueMe_SPLViewController.m */,
+				404D2CB1167763F500EB8DA5 /* ContactViewController.h */,
+				404D2CB2167763F500EB8DA5 /* ContactViewController.m */,
+				404D2CBE1677649C00EB8DA5 /* AddContactViewController.h */,
+				404D2CBF1677649C00EB8DA5 /* AddContactViewController.m */,
+				404D2CCB1677650C00EB8DA5 /* ImportContactViewController.h */,
+				404D2CCC1677650C00EB8DA5 /* ImportContactViewController.m */,
+				00AD71F0171F2BCA007F5328 /* SettingsViewController.h */,
+				00AD71F1171F2BCA007F5328 /* SettingsViewController.m */,
+				00AD71FE171F404C007F5328 /* HowToUseViewController.h */,
+				00AD71FF171F404C007F5328 /* HowToUseViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		404D2C6D1677621600EB8DA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				404D2CDF1677667900EB8DA5 /* Contact.h */,
+				404D2CE01677667900EB8DA5 /* Contact.m */,
+				404D2CF4167766C200EB8DA5 /* ContactManager.h */,
+				404D2CF5167766C200EB8DA5 /* ContactManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		404D2CB01677639400EB8DA5 /* XIB Files */ = {
+			isa = PBXGroup;
+			children = (
+				00AD7200171F404C007F5328 /* HowToUseViewController.xib */,
+				404D2CCD1677650C00EB8DA5 /* ImportContactViewController.xib */,
+				404D2CC01677649C00EB8DA5 /* AddContactViewController.xib */,
+				404D2CB3167763F500EB8DA5 /* ContactViewController.xib */,
+				2899E5210DE3E06400AC0155 /* RescueMe_SPLViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				00AD71F2171F2BCA007F5328 /* SettingsViewController.xib */,
+			);
+			name = "XIB Files";
+			sourceTree = "<group>";
+		};
+		404D2CD81677656800EB8DA5 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				404D2CD91677659800EB8DA5 /* ContactModel.xcdatamodel */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		404D2D3016776CD300EB8DA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				404D2D3116776CFB00EB8DA5 /* background.png */,
+				404D2D3216776CFB00EB8DA5 /* background@2x.png */,
+				404D2D3316776CFB00EB8DA5 /* background568.png */,
+				404D2D3416776CFB00EB8DA5 /* botao.png */,
+				404D2D3516776CFB00EB8DA5 /* botao@2x.png */,
+				404D2D3616776CFB00EB8DA5 /* botaoPressed.png */,
+				404D2D3716776CFB00EB8DA5 /* botaoPressed@2x.png */,
+				404D2D3816776CFB00EB8DA5 /* Default-568h@2x.png */,
+				404D2D3916776CFB00EB8DA5 /* Default.png */,
+				404D2D3A16776CFB00EB8DA5 /* Default@2x.png */,
+				404D2D3B16776CFB00EB8DA5 /* gear.png */,
+				404D2D3C16776CFB00EB8DA5 /* gear@2x.png */,
+				404D2D3D16776CFB00EB8DA5 /* Icon.png */,
+				404D2D3E16776CFB00EB8DA5 /* Icon@2x.png */,
+				404D2D3F16776CFB00EB8DA5 /* rescue.png */,
+				404D2D4016776CFB00EB8DA5 /* rescue@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B631FA74171F22DC00B62833 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA75171F23A100B62833 /* FacebookCommunicationController.h */,
+				B631FA76171F23A100B62833 /* FacebookCommunicationController.m */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		B631FA79171F273E00B62833 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				B631FAE9171F27FA00B62833 /* Vendor */,
+				B631FA9F171F27AC00B62833 /* Categories */,
+				B631FAA6171F27AC00B62833 /* Core */,
+				B631FABA171F27AC00B62833 /* Utilities */,
+				B631FA7F171F277C00B62833 /* Authentication */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		B631FA7F171F277C00B62833 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA80171F277C00B62833 /* Anonymous */,
+				B631FA83171F277C00B62833 /* Deprecated-Digest */,
+				B631FA86171F277C00B62833 /* Deprecated-Plain */,
+				B631FA89171F277C00B62833 /* Digest-MD5 */,
+				B631FA8C171F277C00B62833 /* Plain */,
+				B631FA8F171F277C00B62833 /* X-Facebook-Platform */,
+				B631FA92171F277C00B62833 /* XMPPSASLAuthentication.h */,
+			);
+			name = Authentication;
+			path = "3rd Party/XMPP/Authentication";
+			sourceTree = "<group>";
+		};
+		B631FA80171F277C00B62833 /* Anonymous */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA81171F277C00B62833 /* XMPPAnonymousAuthentication.h */,
+				B631FA82171F277C00B62833 /* XMPPAnonymousAuthentication.m */,
+			);
+			path = Anonymous;
+			sourceTree = "<group>";
+		};
+		B631FA83171F277C00B62833 /* Deprecated-Digest */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA84171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.h */,
+				B631FA85171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m */,
+			);
+			path = "Deprecated-Digest";
+			sourceTree = "<group>";
+		};
+		B631FA86171F277C00B62833 /* Deprecated-Plain */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA87171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.h */,
+				B631FA88171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m */,
+			);
+			path = "Deprecated-Plain";
+			sourceTree = "<group>";
+		};
+		B631FA89171F277C00B62833 /* Digest-MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA8A171F277C00B62833 /* XMPPDigestMD5Authentication.h */,
+				B631FA8B171F277C00B62833 /* XMPPDigestMD5Authentication.m */,
+			);
+			path = "Digest-MD5";
+			sourceTree = "<group>";
+		};
+		B631FA8C171F277C00B62833 /* Plain */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA8D171F277C00B62833 /* XMPPPlainAuthentication.h */,
+				B631FA8E171F277C00B62833 /* XMPPPlainAuthentication.m */,
+			);
+			path = Plain;
+			sourceTree = "<group>";
+		};
+		B631FA8F171F277C00B62833 /* X-Facebook-Platform */ = {
+			isa = PBXGroup;
+			children = (
+				B631FA90171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.h */,
+				B631FA91171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m */,
+			);
+			path = "X-Facebook-Platform";
+			sourceTree = "<group>";
+		};
+		B631FA9F171F27AC00B62833 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B631FAA0171F27AC00B62833 /* NSData+XMPP.h */,
+				B631FAA1171F27AC00B62833 /* NSData+XMPP.m */,
+				B631FAA2171F27AC00B62833 /* NSNumber+XMPP.h */,
+				B631FAA3171F27AC00B62833 /* NSNumber+XMPP.m */,
+				B631FAA4171F27AC00B62833 /* NSXMLElement+XMPP.h */,
+				B631FAA5171F27AC00B62833 /* NSXMLElement+XMPP.m */,
+			);
+			name = Categories;
+			path = "3rd Party/XMPP/Categories";
+			sourceTree = "<group>";
+		};
+		B631FAA6171F27AC00B62833 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B631FAA7171F27AC00B62833 /* XMPP.h */,
+				B631FAA8171F27AC00B62833 /* XMPPElement.h */,
+				B631FAA9171F27AC00B62833 /* XMPPElement.m */,
+				B631FAAA171F27AC00B62833 /* XMPPInternal.h */,
+				B631FAAB171F27AC00B62833 /* XMPPIQ.h */,
+				B631FAAC171F27AC00B62833 /* XMPPIQ.m */,
+				B631FAAD171F27AC00B62833 /* XMPPJID.h */,
+				B631FAAE171F27AC00B62833 /* XMPPJID.m */,
+				B631FAAF171F27AC00B62833 /* XMPPLogging.h */,
+				B631FAB0171F27AC00B62833 /* XMPPMessage.h */,
+				B631FAB1171F27AC00B62833 /* XMPPMessage.m */,
+				B631FAB2171F27AC00B62833 /* XMPPModule.h */,
+				B631FAB3171F27AC00B62833 /* XMPPModule.m */,
+				B631FAB4171F27AC00B62833 /* XMPPParser.h */,
+				B631FAB5171F27AC00B62833 /* XMPPParser.m */,
+				B631FAB6171F27AC00B62833 /* XMPPPresence.h */,
+				B631FAB7171F27AC00B62833 /* XMPPPresence.m */,
+				B631FAB8171F27AC00B62833 /* XMPPStream.h */,
+				B631FAB9171F27AC00B62833 /* XMPPStream.m */,
+			);
+			name = Core;
+			path = "3rd Party/XMPP/Core";
+			sourceTree = "<group>";
+		};
+		B631FABA171F27AC00B62833 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B631FABB171F27AC00B62833 /* DDList.h */,
+				B631FABC171F27AC00B62833 /* DDList.m */,
+				B631FABD171F27AC00B62833 /* GCDMulticastDelegate.h */,
+				B631FABE171F27AC00B62833 /* GCDMulticastDelegate.m */,
+				B631FABF171F27AC00B62833 /* LibIDN.h */,
+				B631FAC0171F27AC00B62833 /* LibIDN.m */,
+				B631FAC1171F27AC00B62833 /* RFImageToDataTransformer.h */,
+				B631FAC2171F27AC00B62833 /* RFImageToDataTransformer.m */,
+				B631FAC3171F27AC00B62833 /* XMPPIDTracker.h */,
+				B631FAC4171F27AC00B62833 /* XMPPIDTracker.m */,
+				B631FAC5171F27AC00B62833 /* XMPPSRVResolver.h */,
+				B631FAC6171F27AC00B62833 /* XMPPSRVResolver.m */,
+			);
+			name = Utilities;
+			path = "3rd Party/XMPP/Utilities";
+			sourceTree = "<group>";
+		};
+		B631FAE9171F27FA00B62833 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B631FAEA171F27FA00B62833 /* CocoaAsyncSocket */,
+				B631FAED171F27FA00B62833 /* CocoaLumberjack */,
+				B631FB4E171F27FA00B62833 /* KissXML */,
+				B631FB5B171F27FA00B62833 /* libidn */,
+			);
+			name = Vendor;
+			path = "3rd Party/XMPP/Vendor";
+			sourceTree = "<group>";
+		};
+		B631FAEA171F27FA00B62833 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B631FAEB171F27FA00B62833 /* GCDAsyncSocket.h */,
+				B631FAEC171F27FA00B62833 /* GCDAsyncSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		B631FAED171F27FA00B62833 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				B631FAEE171F27FA00B62833 /* DDAbstractDatabaseLogger.h */,
+				B631FAEF171F27FA00B62833 /* DDAbstractDatabaseLogger.m */,
+				B631FAF0171F27FA00B62833 /* DDASLLogger.h */,
+				B631FAF1171F27FA00B62833 /* DDASLLogger.m */,
+				B631FAF2171F27FA00B62833 /* DDFileLogger.h */,
+				B631FAF3171F27FA00B62833 /* DDFileLogger.m */,
+				B631FAF4171F27FA00B62833 /* DDLog.h */,
+				B631FAF5171F27FA00B62833 /* DDLog.m */,
+				B631FAF6171F27FA00B62833 /* DDTTYLogger.h */,
+				B631FAF7171F27FA00B62833 /* DDTTYLogger.m */,
+				B631FAF8171F27FA00B62833 /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		B631FAF8171F27FA00B62833 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B631FAF9171F27FA00B62833 /* ContextFilterLogFormatter.h */,
+				B631FAFA171F27FA00B62833 /* ContextFilterLogFormatter.m */,
+				B631FAFB171F27FA00B62833 /* DispatchQueueLogFormatter.h */,
+				B631FAFC171F27FA00B62833 /* DispatchQueueLogFormatter.m */,
+				B631FAFD171F27FA00B62833 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B631FB4E171F27FA00B62833 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				B631FB4F171F27FA00B62833 /* Categories */,
+				B631FB52171F27FA00B62833 /* DDXML.h */,
+				B631FB53171F27FA00B62833 /* DDXMLDocument.h */,
+				B631FB54171F27FA00B62833 /* DDXMLDocument.m */,
+				B631FB55171F27FA00B62833 /* DDXMLElement.h */,
+				B631FB56171F27FA00B62833 /* DDXMLElement.m */,
+				B631FB57171F27FA00B62833 /* DDXMLNode.h */,
+				B631FB58171F27FA00B62833 /* DDXMLNode.m */,
+				B631FB59171F27FA00B62833 /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		B631FB4F171F27FA00B62833 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B631FB50171F27FA00B62833 /* NSString+DDXML.h */,
+				B631FB51171F27FA00B62833 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B631FB59171F27FA00B62833 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				B631FB5A171F27FA00B62833 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		B631FB5B171F27FA00B62833 /* libidn */ = {
+			isa = PBXGroup;
+			children = (
+				B631FB5C171F27FA00B62833 /* build-libidn.sh */,
+				B631FB5D171F27FA00B62833 /* idn-int.h */,
+				B631FB5E171F27FA00B62833 /* libidn.a */,
+				B631FB5F171F27FA00B62833 /* stringprep.h */,
+			);
+			path = libidn;
+			sourceTree = "<group>";
+		};
+		B65D75821719AACE0084BF79 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				B65D75831719AB070084BF79 /* Location.h */,
+				B65D75841719AB070084BF79 /* Location.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00FD27BC167770F300F82BC4 /* RescueMe-Standard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FD27E5167770F300F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Standard" */;
+			buildPhases = (
+				00FD27BD167770F300F82BC4 /* Resources */,
+				00FD27D3167770F300F82BC4 /* Sources */,
+				00FD27DD167770F300F82BC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RescueMe-Standard";
+			productName = "RescueMe-SPL";
+			productReference = 00FD27E8167770F300F82BC4 /* RescueMe-Standard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00FD27EB167770F800F82BC4 /* RescueMe-Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FD2814167770F800F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Social" */;
+			buildPhases = (
+				00FD27EC167770F800F82BC4 /* Resources */,
+				00FD2802167770F800F82BC4 /* Sources */,
+				00FD280C167770F800F82BC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RescueMe-Social";
+			productName = "RescueMe-SPL";
+			productReference = 00FD2817167770F800F82BC4 /* RescueMe-Social.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00FD281A167770FD00F82BC4 /* RescueMe-Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FD2843167770FD00F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Pro" */;
+			buildPhases = (
+				00FD281B167770FD00F82BC4 /* Resources */,
+				00FD2831167770FD00F82BC4 /* Sources */,
+				00FD283B167770FD00F82BC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RescueMe-Pro";
+			productName = "RescueMe-SPL";
+			productReference = 00FD2846167770FD00F82BC4 /* RescueMe-Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00FD28491677710300F82BC4 /* RescueMe-Ultimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FD28721677710300F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Ultimate" */;
+			buildPhases = (
+				00FD284A1677710300F82BC4 /* Resources */,
+				00FD28601677710300F82BC4 /* Sources */,
+				00FD286A1677710300F82BC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RescueMe-Ultimate";
+			productName = "RescueMe-SPL";
+			productReference = 00FD28751677710300F82BC4 /* RescueMe-Ultimate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D6058900D05DD3D006BFB54 /* RescueMe-Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RescueMe-Lite" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RescueMe-Lite";
+			productName = "RescueMe-SPL";
+			productReference = 1D6058910D05DD3D006BFB54 /* RescueMe-Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RescueMe-SPL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RescueMe-Lite */,
+				00FD281A167770FD00F82BC4 /* RescueMe-Pro */,
+				00FD27BC167770F300F82BC4 /* RescueMe-Standard */,
+				00FD27EB167770F800F82BC4 /* RescueMe-Social */,
+				00FD28491677710300F82BC4 /* RescueMe-Ultimate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00FD27BD167770F300F82BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD27BE167770F300F82BC4 /* MainWindow.xib in Resources */,
+				00FD27BF167770F300F82BC4 /* RescueMe_SPLViewController.xib in Resources */,
+				00FD27C0167770F300F82BC4 /* ContactViewController.xib in Resources */,
+				00FD27C1167770F300F82BC4 /* AddContactViewController.xib in Resources */,
+				00FD27C2167770F300F82BC4 /* ImportContactViewController.xib in Resources */,
+				00FD27C3167770F300F82BC4 /* background.png in Resources */,
+				00FD27C4167770F300F82BC4 /* background@2x.png in Resources */,
+				00FD27C5167770F300F82BC4 /* background568.png in Resources */,
+				00FD27C6167770F300F82BC4 /* botao.png in Resources */,
+				00FD27C7167770F300F82BC4 /* botao@2x.png in Resources */,
+				00FD27C8167770F300F82BC4 /* botaoPressed.png in Resources */,
+				00FD27C9167770F300F82BC4 /* botaoPressed@2x.png in Resources */,
+				00FD27CA167770F300F82BC4 /* Default-568h@2x.png in Resources */,
+				00FD27CB167770F300F82BC4 /* Default.png in Resources */,
+				00FD27CC167770F300F82BC4 /* Default@2x.png in Resources */,
+				00FD27CD167770F300F82BC4 /* gear.png in Resources */,
+				00FD27CE167770F300F82BC4 /* gear@2x.png in Resources */,
+				00FD27CF167770F300F82BC4 /* Icon.png in Resources */,
+				00FD27D0167770F300F82BC4 /* Icon@2x.png in Resources */,
+				00FD27D1167770F300F82BC4 /* rescue.png in Resources */,
+				00FD27D2167770F300F82BC4 /* rescue@2x.png in Resources */,
+				B69DD79A171C63D9005C8175 /* RescueMe-Standard.plist in Resources */,
+				00AD71FA171F2BCA007F5328 /* SettingsViewController.xib in Resources */,
+				00AD7206171F404C007F5328 /* HowToUseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD27EC167770F800F82BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD27ED167770F800F82BC4 /* MainWindow.xib in Resources */,
+				00FD27EE167770F800F82BC4 /* RescueMe_SPLViewController.xib in Resources */,
+				00FD27EF167770F800F82BC4 /* ContactViewController.xib in Resources */,
+				00FD27F0167770F800F82BC4 /* AddContactViewController.xib in Resources */,
+				00FD27F1167770F800F82BC4 /* ImportContactViewController.xib in Resources */,
+				00FD27F2167770F800F82BC4 /* background.png in Resources */,
+				00FD27F3167770F800F82BC4 /* background@2x.png in Resources */,
+				00FD27F4167770F800F82BC4 /* background568.png in Resources */,
+				00FD27F5167770F800F82BC4 /* botao.png in Resources */,
+				00FD27F6167770F800F82BC4 /* botao@2x.png in Resources */,
+				00FD27F7167770F800F82BC4 /* botaoPressed.png in Resources */,
+				00FD27F8167770F800F82BC4 /* botaoPressed@2x.png in Resources */,
+				00FD27F9167770F800F82BC4 /* Default-568h@2x.png in Resources */,
+				00FD27FA167770F800F82BC4 /* Default.png in Resources */,
+				00FD27FB167770F800F82BC4 /* Default@2x.png in Resources */,
+				00FD27FC167770F800F82BC4 /* gear.png in Resources */,
+				00FD27FD167770F800F82BC4 /* gear@2x.png in Resources */,
+				00FD27FE167770F800F82BC4 /* Icon.png in Resources */,
+				00FD27FF167770F800F82BC4 /* Icon@2x.png in Resources */,
+				00FD2800167770F800F82BC4 /* rescue.png in Resources */,
+				00FD2801167770F800F82BC4 /* rescue@2x.png in Resources */,
+				B69DD78C171C5FAB005C8175 /* FacebookSDKResources.bundle in Resources */,
+				B69DD79C171C63E3005C8175 /* RescueMe-Social.plist in Resources */,
+<<<<<<< .mine
+				00AD71FB171F2BCA007F5328 /* SettingsViewController.xib in Resources */,
+				00AD7207171F404C007F5328 /* HowToUseViewController.xib in Resources */,
+=======
+				B631FB70171F27FA00B62833 /* README.txt in Resources */,
+				B631FBC2171F27FA00B62833 /* build-libidn.sh in Resources */,
+>>>>>>> .r95
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD281B167770FD00F82BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD281C167770FD00F82BC4 /* MainWindow.xib in Resources */,
+				00FD281D167770FD00F82BC4 /* RescueMe_SPLViewController.xib in Resources */,
+				00FD281E167770FD00F82BC4 /* ContactViewController.xib in Resources */,
+				00FD281F167770FD00F82BC4 /* AddContactViewController.xib in Resources */,
+				00FD2820167770FD00F82BC4 /* ImportContactViewController.xib in Resources */,
+				00FD2821167770FD00F82BC4 /* background.png in Resources */,
+				00FD2822167770FD00F82BC4 /* background@2x.png in Resources */,
+				00FD2823167770FD00F82BC4 /* background568.png in Resources */,
+				00FD2824167770FD00F82BC4 /* botao.png in Resources */,
+				00FD2825167770FD00F82BC4 /* botao@2x.png in Resources */,
+				00FD2826167770FD00F82BC4 /* botaoPressed.png in Resources */,
+				00FD2827167770FD00F82BC4 /* botaoPressed@2x.png in Resources */,
+				00FD2828167770FD00F82BC4 /* Default-568h@2x.png in Resources */,
+				00FD2829167770FD00F82BC4 /* Default.png in Resources */,
+				00FD282A167770FD00F82BC4 /* Default@2x.png in Resources */,
+				00FD282B167770FD00F82BC4 /* gear.png in Resources */,
+				00FD282C167770FD00F82BC4 /* gear@2x.png in Resources */,
+				00FD282D167770FD00F82BC4 /* Icon.png in Resources */,
+				00FD282E167770FD00F82BC4 /* Icon@2x.png in Resources */,
+				00FD282F167770FD00F82BC4 /* rescue.png in Resources */,
+				00FD2830167770FD00F82BC4 /* rescue@2x.png in Resources */,
+				B69DD79E171C63EB005C8175 /* RescueMe-Pro.plist in Resources */,
+				00AD71F9171F2BCA007F5328 /* SettingsViewController.xib in Resources */,
+				00AD7205171F404C007F5328 /* HowToUseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD284A1677710300F82BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD284B1677710300F82BC4 /* MainWindow.xib in Resources */,
+				00FD284C1677710300F82BC4 /* RescueMe_SPLViewController.xib in Resources */,
+				00FD284D1677710300F82BC4 /* ContactViewController.xib in Resources */,
+				00FD284E1677710300F82BC4 /* AddContactViewController.xib in Resources */,
+				00FD284F1677710300F82BC4 /* ImportContactViewController.xib in Resources */,
+				00FD28501677710300F82BC4 /* background.png in Resources */,
+				00FD28511677710300F82BC4 /* background@2x.png in Resources */,
+				00FD28521677710300F82BC4 /* background568.png in Resources */,
+				00FD28531677710300F82BC4 /* botao.png in Resources */,
+				00FD28541677710300F82BC4 /* botao@2x.png in Resources */,
+				00FD28551677710300F82BC4 /* botaoPressed.png in Resources */,
+				00FD28561677710300F82BC4 /* botaoPressed@2x.png in Resources */,
+				00FD28571677710300F82BC4 /* Default-568h@2x.png in Resources */,
+				00FD28581677710300F82BC4 /* Default.png in Resources */,
+				00FD28591677710300F82BC4 /* Default@2x.png in Resources */,
+				00FD285A1677710300F82BC4 /* gear.png in Resources */,
+				00FD285B1677710300F82BC4 /* gear@2x.png in Resources */,
+				00FD285C1677710300F82BC4 /* Icon.png in Resources */,
+				00FD285D1677710300F82BC4 /* Icon@2x.png in Resources */,
+				00FD285E1677710300F82BC4 /* rescue.png in Resources */,
+				00FD285F1677710300F82BC4 /* rescue@2x.png in Resources */,
+				B69DD78D171C5FAB005C8175 /* FacebookSDKResources.bundle in Resources */,
+				B69DD798171C63CE005C8175 /* RescueMe-Ultimate.plist in Resources */,
+<<<<<<< .mine
+				00AD71FC171F2BCA007F5328 /* SettingsViewController.xib in Resources */,
+				00AD7208171F404C007F5328 /* HowToUseViewController.xib in Resources */,
+=======
+				B631FB71171F27FA00B62833 /* README.txt in Resources */,
+				B631FBC3171F27FA00B62833 /* build-libidn.sh in Resources */,
+>>>>>>> .r95
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* RescueMe_SPLViewController.xib in Resources */,
+				404D2CB7167763F500EB8DA5 /* ContactViewController.xib in Resources */,
+				404D2CC41677649C00EB8DA5 /* AddContactViewController.xib in Resources */,
+				404D2CD11677650C00EB8DA5 /* ImportContactViewController.xib in Resources */,
+				404D2D5116776CFB00EB8DA5 /* background.png in Resources */,
+				404D2D5216776CFB00EB8DA5 /* background@2x.png in Resources */,
+				404D2D5316776CFB00EB8DA5 /* background568.png in Resources */,
+				404D2D5416776CFB00EB8DA5 /* botao.png in Resources */,
+				404D2D5516776CFB00EB8DA5 /* botao@2x.png in Resources */,
+				404D2D5616776CFB00EB8DA5 /* botaoPressed.png in Resources */,
+				404D2D5716776CFB00EB8DA5 /* botaoPressed@2x.png in Resources */,
+				404D2D5816776CFB00EB8DA5 /* Default-568h@2x.png in Resources */,
+				404D2D5916776CFB00EB8DA5 /* Default.png in Resources */,
+				404D2D5A16776CFB00EB8DA5 /* Default@2x.png in Resources */,
+				404D2D5B16776CFB00EB8DA5 /* gear.png in Resources */,
+				404D2D5C16776CFB00EB8DA5 /* gear@2x.png in Resources */,
+				404D2D5D16776CFB00EB8DA5 /* Icon.png in Resources */,
+				404D2D5E16776CFB00EB8DA5 /* Icon@2x.png in Resources */,
+				404D2D5F16776CFB00EB8DA5 /* rescue.png in Resources */,
+				404D2D6016776CFB00EB8DA5 /* rescue@2x.png in Resources */,
+				B69DD7A0171C63F4005C8175 /* RescueMe-Lite.plist in Resources */,
+				00AD71F8171F2BCA007F5328 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00FD27D3167770F300F82BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD27D4167770F300F82BC4 /* main.m in Sources */,
+				00FD27D5167770F300F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */,
+				00FD27D6167770F300F82BC4 /* RescueMe_SPLViewController.m in Sources */,
+				00FD27D7167770F300F82BC4 /* ContactViewController.m in Sources */,
+				00FD27D8167770F300F82BC4 /* AddContactViewController.m in Sources */,
+				00FD27D9167770F300F82BC4 /* ImportContactViewController.m in Sources */,
+				00FD27DA167770F300F82BC4 /* ContactModel.xcdatamodel in Sources */,
+				00FD27DB167770F300F82BC4 /* Contact.m in Sources */,
+				00FD27DC167770F300F82BC4 /* ContactManager.m in Sources */,
+				B65D75871719AB070084BF79 /* Location.m in Sources */,
+				00AD71F5171F2BCA007F5328 /* SettingsViewController.m in Sources */,
+				00AD7202171F404C007F5328 /* HowToUseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD2802167770F800F82BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD2803167770F800F82BC4 /* main.m in Sources */,
+				00FD2804167770F800F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */,
+				00FD2805167770F800F82BC4 /* RescueMe_SPLViewController.m in Sources */,
+				00FD2806167770F800F82BC4 /* ContactViewController.m in Sources */,
+				00FD2807167770F800F82BC4 /* AddContactViewController.m in Sources */,
+				00FD2808167770F800F82BC4 /* ImportContactViewController.m in Sources */,
+				00FD2809167770F800F82BC4 /* ContactModel.xcdatamodel in Sources */,
+				00FD280A167770F800F82BC4 /* Contact.m in Sources */,
+				00FD280B167770F800F82BC4 /* ContactManager.m in Sources */,
+				B65D75881719AB070084BF79 /* Location.m in Sources */,
+<<<<<<< .mine
+				00AD71F6171F2BCA007F5328 /* SettingsViewController.m in Sources */,
+				00AD7203171F404C007F5328 /* HowToUseViewController.m in Sources */,
+=======
+				B631FA77171F23A100B62833 /* FacebookCommunicationController.m in Sources */,
+				B631FA93171F277C00B62833 /* XMPPAnonymousAuthentication.m in Sources */,
+				B631FA95171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m in Sources */,
+				B631FA97171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m in Sources */,
+				B631FA99171F277C00B62833 /* XMPPDigestMD5Authentication.m in Sources */,
+				B631FA9B171F277C00B62833 /* XMPPPlainAuthentication.m in Sources */,
+				B631FA9D171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m in Sources */,
+				B631FAC7171F27AC00B62833 /* NSData+XMPP.m in Sources */,
+				B631FAC9171F27AC00B62833 /* NSNumber+XMPP.m in Sources */,
+				B631FACB171F27AC00B62833 /* NSXMLElement+XMPP.m in Sources */,
+				B631FACD171F27AC00B62833 /* XMPPElement.m in Sources */,
+				B631FACF171F27AC00B62833 /* XMPPIQ.m in Sources */,
+				B631FAD1171F27AC00B62833 /* XMPPJID.m in Sources */,
+				B631FAD3171F27AC00B62833 /* XMPPMessage.m in Sources */,
+				B631FAD5171F27AC00B62833 /* XMPPModule.m in Sources */,
+				B631FAD7171F27AC00B62833 /* XMPPParser.m in Sources */,
+				B631FAD9171F27AC00B62833 /* XMPPPresence.m in Sources */,
+				B631FADB171F27AC00B62833 /* XMPPStream.m in Sources */,
+				B631FADD171F27AC00B62833 /* DDList.m in Sources */,
+				B631FADF171F27AC00B62833 /* GCDMulticastDelegate.m in Sources */,
+				B631FAE1171F27AC00B62833 /* LibIDN.m in Sources */,
+				B631FAE3171F27AC00B62833 /* RFImageToDataTransformer.m in Sources */,
+				B631FAE5171F27AC00B62833 /* XMPPIDTracker.m in Sources */,
+				B631FAE7171F27AC00B62833 /* XMPPSRVResolver.m in Sources */,
+				B631FB60171F27FA00B62833 /* GCDAsyncSocket.m in Sources */,
+				B631FB62171F27FA00B62833 /* DDAbstractDatabaseLogger.m in Sources */,
+				B631FB64171F27FA00B62833 /* DDASLLogger.m in Sources */,
+				B631FB66171F27FA00B62833 /* DDFileLogger.m in Sources */,
+				B631FB68171F27FA00B62833 /* DDLog.m in Sources */,
+				B631FB6A171F27FA00B62833 /* DDTTYLogger.m in Sources */,
+				B631FB6C171F27FA00B62833 /* ContextFilterLogFormatter.m in Sources */,
+				B631FB6E171F27FA00B62833 /* DispatchQueueLogFormatter.m in Sources */,
+				B631FBBA171F27FA00B62833 /* NSString+DDXML.m in Sources */,
+				B631FBBC171F27FA00B62833 /* DDXMLDocument.m in Sources */,
+				B631FBBE171F27FA00B62833 /* DDXMLElement.m in Sources */,
+				B631FBC0171F27FA00B62833 /* DDXMLNode.m in Sources */,
+>>>>>>> .r95
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD2831167770FD00F82BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD2832167770FD00F82BC4 /* main.m in Sources */,
+				00FD2833167770FD00F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */,
+				00FD2834167770FD00F82BC4 /* RescueMe_SPLViewController.m in Sources */,
+				00FD2835167770FD00F82BC4 /* ContactViewController.m in Sources */,
+				00FD2836167770FD00F82BC4 /* AddContactViewController.m in Sources */,
+				00FD2837167770FD00F82BC4 /* ImportContactViewController.m in Sources */,
+				00FD2838167770FD00F82BC4 /* ContactModel.xcdatamodel in Sources */,
+				00FD2839167770FD00F82BC4 /* Contact.m in Sources */,
+				00FD283A167770FD00F82BC4 /* ContactManager.m in Sources */,
+				B65D75861719AB070084BF79 /* Location.m in Sources */,
+				00AD71F4171F2BCA007F5328 /* SettingsViewController.m in Sources */,
+				00AD7201171F404C007F5328 /* HowToUseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD28601677710300F82BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD28611677710300F82BC4 /* main.m in Sources */,
+				00FD28621677710300F82BC4 /* RescueMe_SPLAppDelegate.m in Sources */,
+				00FD28631677710300F82BC4 /* RescueMe_SPLViewController.m in Sources */,
+				00FD28641677710300F82BC4 /* ContactViewController.m in Sources */,
+				00FD28651677710300F82BC4 /* AddContactViewController.m in Sources */,
+				00FD28661677710300F82BC4 /* ImportContactViewController.m in Sources */,
+				00FD28671677710300F82BC4 /* ContactModel.xcdatamodel in Sources */,
+				00FD28681677710300F82BC4 /* Contact.m in Sources */,
+				00FD28691677710300F82BC4 /* ContactManager.m in Sources */,
+				B65D75891719AB070084BF79 /* Location.m in Sources */,
+<<<<<<< .mine
+				00AD71F7171F2BCA007F5328 /* SettingsViewController.m in Sources */,
+				00AD7204171F404C007F5328 /* HowToUseViewController.m in Sources */,
+=======
+				B631FA78171F23A100B62833 /* FacebookCommunicationController.m in Sources */,
+				B631FA94171F277C00B62833 /* XMPPAnonymousAuthentication.m in Sources */,
+				B631FA96171F277C00B62833 /* XMPPDeprecatedDigestAuthentication.m in Sources */,
+				B631FA98171F277C00B62833 /* XMPPDeprecatedPlainAuthentication.m in Sources */,
+				B631FA9A171F277C00B62833 /* XMPPDigestMD5Authentication.m in Sources */,
+				B631FA9C171F277C00B62833 /* XMPPPlainAuthentication.m in Sources */,
+				B631FA9E171F277C00B62833 /* XMPPXFacebookPlatformAuthentication.m in Sources */,
+				B631FAC8171F27AC00B62833 /* NSData+XMPP.m in Sources */,
+				B631FACA171F27AC00B62833 /* NSNumber+XMPP.m in Sources */,
+				B631FACC171F27AC00B62833 /* NSXMLElement+XMPP.m in Sources */,
+				B631FACE171F27AC00B62833 /* XMPPElement.m in Sources */,
+				B631FAD0171F27AC00B62833 /* XMPPIQ.m in Sources */,
+				B631FAD2171F27AC00B62833 /* XMPPJID.m in Sources */,
+				B631FAD4171F27AC00B62833 /* XMPPMessage.m in Sources */,
+				B631FAD6171F27AC00B62833 /* XMPPModule.m in Sources */,
+				B631FAD8171F27AC00B62833 /* XMPPParser.m in Sources */,
+				B631FADA171F27AC00B62833 /* XMPPPresence.m in Sources */,
+				B631FADC171F27AC00B62833 /* XMPPStream.m in Sources */,
+				B631FADE171F27AC00B62833 /* DDList.m in Sources */,
+				B631FAE0171F27AC00B62833 /* GCDMulticastDelegate.m in Sources */,
+				B631FAE2171F27AC00B62833 /* LibIDN.m in Sources */,
+				B631FAE4171F27AC00B62833 /* RFImageToDataTransformer.m in Sources */,
+				B631FAE6171F27AC00B62833 /* XMPPIDTracker.m in Sources */,
+				B631FAE8171F27AC00B62833 /* XMPPSRVResolver.m in Sources */,
+				B631FB61171F27FA00B62833 /* GCDAsyncSocket.m in Sources */,
+				B631FB63171F27FA00B62833 /* DDAbstractDatabaseLogger.m in Sources */,
+				B631FB65171F27FA00B62833 /* DDASLLogger.m in Sources */,
+				B631FB67171F27FA00B62833 /* DDFileLogger.m in Sources */,
+				B631FB69171F27FA00B62833 /* DDLog.m in Sources */,
+				B631FB6B171F27FA00B62833 /* DDTTYLogger.m in Sources */,
+				B631FB6D171F27FA00B62833 /* ContextFilterLogFormatter.m in Sources */,
+				B631FB6F171F27FA00B62833 /* DispatchQueueLogFormatter.m in Sources */,
+				B631FBBB171F27FA00B62833 /* NSString+DDXML.m in Sources */,
+				B631FBBD171F27FA00B62833 /* DDXMLDocument.m in Sources */,
+				B631FBBF171F27FA00B62833 /* DDXMLElement.m in Sources */,
+				B631FBC1171F27FA00B62833 /* DDXMLNode.m in Sources */,
+>>>>>>> .r95
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RescueMe_SPLAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RescueMe_SPLViewController.m in Sources */,
+				404D2CB6167763F500EB8DA5 /* ContactViewController.m in Sources */,
+				404D2CC31677649C00EB8DA5 /* AddContactViewController.m in Sources */,
+				404D2CD01677650C00EB8DA5 /* ImportContactViewController.m in Sources */,
+				404D2CDB1677659800EB8DA5 /* ContactModel.xcdatamodel in Sources */,
+				404D2CE21677667900EB8DA5 /* Contact.m in Sources */,
+				404D2CF7167766C200EB8DA5 /* ContactManager.m in Sources */,
+				B65D75851719AB070084BF79 /* Location.m in Sources */,
+				00AD71F3171F2BCA007F5328 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00FD27E6167770F300F82BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = HOW_TO_USE;
+				INFOPLIST_FILE = "RescueMe-Standard.plist";
+				PRODUCT_NAME = "RescueMe-Standard";
+			};
+			name = Debug;
+		};
+		00FD27E7167770F300F82BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = HOW_TO_USE;
+				INFOPLIST_FILE = "RescueMe-Standard.plist";
+				PRODUCT_NAME = "RescueMe-Standard";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FD2815167770F800F82BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Documents/FacebookSDK\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+<<<<<<< .mine
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USER_INFO,
+					HOW_TO_USE,
+				);
+=======
+				GCC_PREPROCESSOR_DEFINITIONS = "FACEBOOK_IMPORT=1";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+>>>>>>> .r95
+				INFOPLIST_FILE = "RescueMe-Social.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/3rd Party/XMPP/Vendor/libidn\"",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsqlite3.0",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "RescueMe-Social";
+			};
+			name = Debug;
+		};
+		00FD2816167770F800F82BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+<<<<<<< .mine
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USER_INFO,
+					HOW_TO_USE,
+				);
+=======
+				GCC_PREPROCESSOR_DEFINITIONS = "FACEBOOK_IMPORT=1";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+>>>>>>> .r95
+				INFOPLIST_FILE = "RescueMe-Social.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/3rd Party/XMPP/Vendor/libidn\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsqlite3.0",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "RescueMe-Social";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FD2844167770FD00F82BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USER_INFO,
+					HOW_TO_USE,
+				);
+				INFOPLIST_FILE = "RescueMe-Pro.plist";
+				PRODUCT_NAME = "RescueMe-Pro";
+			};
+			name = Debug;
+		};
+		00FD2845167770FD00F82BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USER_INFO,
+					HOW_TO_USE,
+				);
+				INFOPLIST_FILE = "RescueMe-Pro.plist";
+				PRODUCT_NAME = "RescueMe-Pro";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FD28731677710300F82BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Documents/FacebookSDK\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USER_INFO,
+					FACEBOOK_IMPORT,
+					HOW_TO_USE,
+				);
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "RescueMe-Ultimate.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/3rd Party/XMPP/Vendor/libidn\"",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "RescueMe-Ultimate";
+			};
+			name = Debug;
+		};
+		00FD28741677710300F82BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USER_INFO,
+					FACEBOOK_IMPORT,
+					HOW_TO_USE,
+				);
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "RescueMe-Ultimate.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/3rd Party/XMPP/Vendor/libidn\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "RescueMe-Ultimate";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				INFOPLIST_FILE = "RescueMe-Lite.plist";
+				PRODUCT_NAME = "RescueMe-Lite";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RescueMe_SPL_Prefix.pch;
+				INFOPLIST_FILE = "RescueMe-Lite.plist";
+				PRODUCT_NAME = "RescueMe-Lite";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00FD27E5167770F300F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Standard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD27E6167770F300F82BC4 /* Debug */,
+				00FD27E7167770F300F82BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FD2814167770F800F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD2815167770F800F82BC4 /* Debug */,
+				00FD2816167770F800F82BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FD2843167770FD00F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD2844167770FD00F82BC4 /* Debug */,
+				00FD2845167770FD00F82BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FD28721677710300F82BC4 /* Build configuration list for PBXNativeTarget "RescueMe-Ultimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD28731677710300F82BC4 /* Debug */,
+				00FD28741677710300F82BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RescueMe-Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RescueMe-SPL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

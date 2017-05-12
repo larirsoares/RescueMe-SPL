@@ -1,0 +1,94 @@
+10
+
+dir
+131
+svn+ssh://brataodream@svn.code.sf.net/p/rescueme-spl/code-0/trunk/Domain%20Engineering/Code/RescueMe-SPL/3rd%20Party/XMPP/Extensions
+svn+ssh://brataodream@svn.code.sf.net/p/rescueme-spl/code-0
+
+
+
+2013-04-19T04:28:30.583188Z
+95
+brataodream
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3d911e54-721e-44b1-81c1-8b05e9fe1d10
+
+XEP-0060
+dir
+
+XEP-0115
+dir
+
+XEP-0016
+dir
+
+Reconnect
+dir
+
+ProcessOne
+dir
+
+XEP-0224
+dir
+
+XEP-0054
+dir
+
+XEP-0045
+dir
+
+XEP-0009
+dir
+
+XEP-0153
+dir
+
+XEP-0082
+dir
+
+XEP-0136
+dir
+
+XEP-0065
+dir
+
+XEP-0085
+dir
+
+XEP-0184
+dir
+
+XEP-0199
+dir
+
+CoreDataStorage
+dir
+
+XEP-0100
+dir
+
+BandwidthMonitor
+dir
+
+XEP-0202
+dir
+
+Roster
+dir
+
+XEP-0203
+dir
+

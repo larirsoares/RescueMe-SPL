@@ -1,0 +1,43 @@
+10
+
+dir
+131
+svn+ssh://brataodream@svn.code.sf.net/p/rescueme-spl/code-0/trunk/Domain%20Engineering/Code/RescueMe-SPL/3rd%20Party/XMPP/Vendor
+svn+ssh://brataodream@svn.code.sf.net/p/rescueme-spl/code-0
+
+
+
+2013-04-19T13:03:38.956471Z
+98
+brataodream
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3d911e54-721e-44b1-81c1-8b05e9fe1d10
+
+facebook-ios-sdk
+dir
+
+libidn
+dir
+
+CocoaLumberjack
+dir
+
+KissXML
+dir
+
+CocoaAsyncSocket
+dir
+
